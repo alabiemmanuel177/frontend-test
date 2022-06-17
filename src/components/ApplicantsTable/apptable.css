@@ -1,0 +1,25 @@
+.post {
+  width: 70%;
+  margin-left: 5%;
+}
+.hold1 {
+  overflow: auto !important;
+
+  width: 15% !important;
+  height: 100px !important;
+}
+td {
+  width: 15% !important;
+}
+.fixed {
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+@media screen and (max-width:1366px){
+  .table-holder3{
+    position: relative;
+    right: 40px !important;
+  }
+  
+}

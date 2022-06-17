@@ -1,0 +1,363 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 30px;
+  gap: 3px;
+  background-color: #faf9f9;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.59);
+  margin-bottom: 50px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+  gap: 3px;
+  height: 500px;
+  background: #f5f5f5;
+  margin-bottom: 50px;
+}
+.intro h1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.71);
+  padding: 10px;
+  width: 1375px;
+}
+ .mission-statement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background: #f5f5f5;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 50px;
+} 
+.mission-statement h1 {
+  font-weight: 500;
+  font-size: 32px;
+  
+  letter-spacing: 0.01em;
+  color: #ca971a;
+}
+.mission-statement ul {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.71);
+  /* width: 800px; */
+  /* height: 400px; */
+  position: relative;
+  top: -100px;
+}
+
+
+
+
+.mission-statement p{
+  width: 869px;
+}
+
+
+.Sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1024px) {
+  
+
+.islamic-org{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  background: #f5f5f5;
+  flex: none;
+  order: 1;
+ 
+  margin-bottom: 50px;
+}
+
+.islamic-org h1{
+  color: #ca971a;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+
+
+.islamic-org ul {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.71);
+  width: 869px;
+  height: 400px;
+  padding-left: 18%;
+  
+ 
+}
+}
+@media screen and (max-width:1366px){
+  .intro h1{
+    width: 1000px !important;
+
+  }
+}
+
+
+.islamic-list{
+  margin-left: 120px !important;
+}
+.list-space{
+  margin-top: 50px;
+}
+
+.mission-statement{
+  padding-top: 70px;
+}
+
+.islamic-org{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  background: #f5f5f5;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 50px;
+}
+
+.islamic-org h1{
+  color: #ca971a;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.islamic-org ul {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.71);
+  width: 869px;
+  height: 400px;
+  padding-left: 12%;
+ 
+ 
+}
+
+.color1{
+  color: #ca971a;
+}
+
+.relief-activities{
+  height: 2200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  margin-bottom: 50px;
+
+}
+.text{
+  width: 869px;
+  font-weight: 400 !important;
+  font-size: 20px;
+
+}
+
+.r-list{
+  text-align: left !important;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+  .islamic-org ul{
+    padding-left: 0%;
+  }
+
+  .islamic-org{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    background: #f5f5f5;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 50px;
+  }
+  
+  .islamic-org h1{
+    color: #ca971a;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+   .islamic-org ul {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.71);
+    width: 869px;
+    height: 400px;
+    padding-left: 12%;
+   }
+  
+  .color1{
+    color: #ca971a;
+  }
+  
+  .relief-activities{
+    height: 2700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    margin-bottom: 50px;
+   }
+
+  .text{
+    width: 700px !important;
+  }
+
+  .mission-statement{
+    /* height: 1300px; */
+    margin-bottom: 100px;
+  }
+
+  .intro{
+    height: 600px;
+  }
+
+ .aboutus{
+    font-size: 10px !important;
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .text{
+    width: 400px !important;
+  }
+
+  .relief-activities{
+    height: 4500px;
+  }
+
+
+ .mission-statement{
+  background-color: #f5f5f5;
+  padding-top: 50px;
+ }
+
+ .mission-statement ul li{
+   width: 370px !important;
+   margin-top: 40px;
+   
+ }
+
+  .intro{
+    height: 900px;
+  }
+
+  .space2{
+    margin-bottom: 50px;
+  }
+
+  .islamic-list{
+    margin-left: 0px !important;
+  }
+}
+
+
+@media screen and (max-width:375px) {
+  .text{
+    width: 350px !important;
+  }
+
+  .mission-statement ul li{
+    width: 300px !important;
+    margin-top: 40px;
+    
+  }
+
+  .islamic-list{
+    margin-left: 10px !important;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    gap: 3px;
+    height: 1200px;
+    background: #f5f5f5;
+    margin-bottom: 50px;
+  }
+
+  .relief-activities{
+    height: 5200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    margin-bottom: 50px;
+  
+  }
+
+  
+}
+
+@media screen and (max-width:320px) {
+  .text{
+    width: 300px !important;
+  }
+
+  .islamic-list{
+    margin-left: 5px !important;
+  }
+.relief-activities{
+  height: 6200px;
+}
+
+.intro{
+  height: 1400px;
+}
+
+
+
+  
+}

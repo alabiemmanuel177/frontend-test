@@ -1,0 +1,56 @@
+.form-arr {
+  width: 40%;
+  padding: 50px;
+  margin: auto;
+  margin-top: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color: white;
+}
+.field-holder {
+  display: flex;
+  flex-direction: row;
+}
+.field {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-right: 1px solid white;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+.signin-btn {
+  width: 20%;
+  background-color: rgb(5, 113, 5) !important;
+  border: 1px solid rgb(5, 113, 5) !important;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.signin-btn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(255, 0, 0);
+}
+.icon-holder {
+  border: 1px solid #dcdcdc;
+  width: 10%;
+  height: 35px;
+  border-left: 1px solid white;
+}
+.icon-pos {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.login-div {
+  height: 50px !important;
+  width: 50px !important;
+  margin: 0 auto;
+  transform: translate(-0rem, -5ex);
+}
+.login-icon {
+  font-size: 70px;
+  color: #3e8e41;
+  position: relative;
+  left: -10px;
+}

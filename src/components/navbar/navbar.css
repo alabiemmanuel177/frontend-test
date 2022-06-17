@@ -1,0 +1,207 @@
+.navbar {
+  background-color: #28da6c;
+  flex-direction: row;
+}
+.navbar-btn {
+  float: right;
+  font-family: "Poppins";
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  display: flex;
+  margin-right: 12%;
+}
+.navbar-btn a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-btn a:hover {
+  background-color: #fff;
+  color: rgba(72, 185, 117, 0.98) !important;
+  border-radius: 2px;
+}
+.btn {
+  font-size: 24px;
+  background-color: #fff !important;
+  letter-spacing: 0.01em;
+  color: black !important;
+  text-decoration: none;
+  font-weight: bold !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  border: 0 !important;
+  margin-left: 5px;
+}
+.btn:hover{
+  color: #28da6c !important;
+}
+
+.dropdown-content {
+  position: relative;
+  top: 42px !important;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1366px) {
+  .navbar-btn a {
+    padding: 7px !important;
+  }
+  .navbar-btn {
+    font-size: 20px !important;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Nlink {
+    display: none;
+  }
+
+  .hamburger {
+    display: contents;
+    position: relative;
+    right: 20px;
+  }
+  .dropbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    right: 20px;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -122px !important;
+    top: 5px;
+    background-color: rgb(207, 207, 207) !important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: #3e8e41 !important;
+  }
+
+  .dropdown-content a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Nlink {
+    display: none;
+  }
+
+  .hamburger {
+    display: contents;
+  }
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+}
+
+.dropdown-content a {
+  color: rgb(85, 85, 85) !important;
+}
+
+.abt-pos {
+  position: relative;
+  top: 7px;
+}
+
+.logo-size {
+  height: 60px;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 2560px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+.logo {
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 1440px) {
+  .hamburger {
+    display: none !important;
+  }
+}

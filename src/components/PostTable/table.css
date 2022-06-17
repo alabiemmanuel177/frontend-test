@@ -1,0 +1,25 @@
+/* 
+
+
+
+td{
+    width: 300px !important;
+} */
+
+
+/* .bb{
+    width: 180px !important;
+    overflow: auto !important; 
+    height: 100px !important;
+} */
+
+
+
+.table-pos{
+    position: relative;
+}
+
+.table{
+    margin-bottom: 0 !important;
+    margin-left: 5%;
+}

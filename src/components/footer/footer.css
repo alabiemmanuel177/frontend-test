@@ -1,0 +1,82 @@
+.footer {
+  height: 450px;
+  background-color: #28da6c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.footer-form {
+  width: 45%;
+  margin-left: 150px;
+}
+.footer-form p {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+form .col-12 button {
+  background-color: #48b975;
+  padding: 10px;
+  color: #ffffff;
+  width: 260px;
+  margin-top: 20px;
+}
+form .col-12 button:hover {
+  background-color: #ffffff;
+  color: #48b975;
+}
+.col-md-6,
+.col-md-12 label {
+  color: #ffffff;
+}
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+}
+.footer-socials img {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}
+.footer-links {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-form {
+    width: 45%;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    height: 700px;
+  }
+
+  .footer-form {
+    width: 80%;
+  }
+}
+
+.label-txt {
+  color: white !important;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+.google_maps {
+  margin-right: 5%;
+}

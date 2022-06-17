@@ -1,0 +1,13 @@
+.side{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.table{
+    width: 85%;
+}

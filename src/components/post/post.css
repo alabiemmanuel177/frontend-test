@@ -1,0 +1,14 @@
+.miniproject-text {
+    text-align: center;
+  }
+  .miniproject-text h1 {
+    font-size: 30px;
+    color: #CA971A;
+  }
+  .miniproject-text h3{
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.71);
+  }
+  .bold{
+      font-weight: 900;
+  }

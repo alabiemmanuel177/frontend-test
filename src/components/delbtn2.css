@@ -1,0 +1,10 @@
+.spc3{
+    width: 100% !important;
+}
+
+.password-btn{
+    border: 1px solid white;
+    background-color: white;
+    padding:10px ;
+    color: rgb(85, 85, 85);
+}
