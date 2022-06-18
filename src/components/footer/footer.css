@@ -80,3 +80,6 @@ form .col-12 button:hover {
 .google_maps {
   margin-right: 5%;
 }
+.google_maps iframe{
+  border-radius: 20px;
+}

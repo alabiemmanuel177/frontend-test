@@ -15,7 +15,7 @@
 .home_aboutus_image {
   margin-right: 100px;
 }
-#homecard-btn{
+#homecard-btn {
   color: white !important;
   background-color: #28da6c !important;
 }
@@ -35,12 +35,49 @@
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
+.ourschemes {
+  margin-top: 100px;
+  height: 650px;
+  text-align: center;
+  color: #28da6c;
+}
+.ourschemes h1{
+  margin-bottom: 100px;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+.our_schemes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1140px;
+  margin-bottom: 50px;
+}
+.ourschemes_card {
+  font-size: 21px;
+  font-family: "Lato";
+  height: 330px;
+  width: 255px;
+  color: #28da6c;
+  font-weight: bold;
+  box-shadow: 0 2px 14px 0 rgb(0 0 0 / 32%)
+}
+.ourschemes_card img {
+  width: 255px;
+  height: 211px;
+  margin-bottom: 30px;
+}
+#scheme-btn{
+  border: #28da6c solid 2px !important;
+
+}
+
 .work-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  /* gap: 237px; */
   width: 100%;
   height: 421px;
   flex: none;

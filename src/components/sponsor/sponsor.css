@@ -2,7 +2,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
   width: 100%;
-  height: 650px;
+  height: 730px;
   background-color: whitesmoke;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 .sponsor-card h1 {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   color: #28da6c;
   font-family: "Lato";
@@ -30,8 +30,12 @@
 }
 .image {
   width: 285px;
-  height: 113px;
+  height: 150px;
   margin-bottom: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
