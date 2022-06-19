@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 .home_aboutus {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 1320px;
   height: 510px;
   align-items: center;
   justify-content: center;
@@ -33,10 +34,6 @@
 .home_aboutus_text p {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
-  word-wrap: break-word;
-}
-.home_aboutus_text {
-  word-wrap: break-word;
 }
 .ourschemes {
   margin-top: 100px;
@@ -73,4 +70,219 @@
 }
 #scheme-btn{
   border: #28da6c solid 2px !important;
+
+}
+
+.work-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  height: 421px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  justify-content: center;
+}
+.work-card-image {
+  text-align: center;
+}
+.work-card-image img {
+  width: 278px;
+  height: 323px;
+}
+.work-card-image h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+}
+.work-card-image h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: rgba(72, 185, 117, 0.98);
+}
+
+@media screen and (max-width: 1366px) {
+  .aboutus-card {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 300px;
+    background-color: #ca971a;
+    border-radius: 20px;
+    align-items: center;
+    padding: 63px 34px;
+    /* gap: 129px; */
+    margin-bottom: 50px;
+    box-shadow: rgba(46, 240, 46, 0.4) -5px 5px,
+      rgba(46, 240, 65, 0.3) -10px 10px;
+  }
+
+  .aboutus-text h1 {
+    font-size: 23px;
+  }
+  .aboutus-text p {
+    font-size: 15px;
+  }
+
+  .aboutus-button button {
+    width: 180px !important;
+    height: 53px;
+  }
+
+  .btn-pos {
+    position: relative;
+    top: -5px;
+  }
+
+  .aboutus-text {
+    width: 70%;
+    margin-left: 5%;
+  }
+
+  .aboutus-button {
+    margin-right: 5%;
+  }
+
+  .work-card-image img {
+    width: 250px;
+    height: 300px;
+  }
+  .work-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 421px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    gap: 129px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutus-card {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: 300px;
+    background-color: #ca971a;
+    border-radius: 20px;
+    align-items: center;
+    padding: 63px 34px;
+    margin-bottom: 50px;
+  }
+
+  .work-card-image img {
+    width: 200px !important;
+    height: 300px;
+  }
+
+  .work-card {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    height: 421px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    gap: 50px;
+  }
+
+  .aboutus-text h1 {
+    font-size: 16px;
+  }
+
+  .aboutus-text p {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .aboutus-card {
+    display: flex;
+    flex-direction: column !important;
+    height: 450px;
+    width: 425px;
+  }
+
+  .aboutus-text {
+    width: 100%;
+  }
+
+  .aboutus-button {
+    position: relative;
+    bottom: 1px;
+  }
+
+  .aboutus-button button {
+    width: 300px;
+  }
+
+  .work-card {
+    display: flex;
+    flex-direction: column !important;
+    margin-bottom: 100px;
+    margin-top: 450px;
+    margin-bottom: 250px;
+  }
+
+  .work-card-image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aboutus-card {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutus-card {
+    width: 320px !important;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  .aboutus-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
+    padding: 63px 34px;
+    margin-bottom: 50px;
+  }
+
+  .aboutus-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutus-button button {
+    width: 150px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .work-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 421px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    gap: 100px;
+  }
+
+  .work-card-image img {
+    width: 200px;
+    height: 300px;
+  }
 }
