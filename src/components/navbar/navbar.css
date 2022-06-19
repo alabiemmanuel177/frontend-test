@@ -43,7 +43,11 @@
 .dropdown-content {
   position: relative;
   top: 42px !important;
+  border-radius: 5px;
+  font-size: 16px;
 }
+
+
 
 .hamburger {
   display: none;
