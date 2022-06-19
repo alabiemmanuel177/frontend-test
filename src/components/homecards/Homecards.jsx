@@ -22,21 +22,23 @@ export const Homecards = () => {
             Ebiti Jama'a in Islam)
           </h2>
           <p>
-            This foundation was formed in memory of late<br></br>
+            This foundation was formed in memory of late
             Ismail Bolaji Ebiti who died and was buried on the 14th of June 1986
-            with its aim and objective<br></br>
+            with its aim and objectiv
             as a charity organization for the promotion of the religious
-            education, spiritual , economic <br></br>
+            education, spiritual , economic 
             and social welfare of mankind based on the teachings of Islam.
           </p>
-          <button
-            id="homecard-btn"
-            type="button"
-            className="btn btn-primary btn-lg"
-            color="white !important"
-          >
-            Learn More
-          </button>
+          <Link to="/aboutus">
+            <button
+              id="homecard-btn"
+              type="button"
+              className="btn btn-primary btn-lg"
+              color="white !important"
+            >
+              Learn More
+            </button>
+          </Link>
         </div>
       </div>
       <div className="ourschemes">
@@ -76,14 +78,16 @@ export const Homecards = () => {
             </p>
           </div>
         </div>
-        <button
-          id="scheme-btn"
-          type="button"
-          className="btn btn-primary btn-lg"
-          color="white !important"
-        >
-          Read More
-        </button>
+        <Link to="/thefoundation">
+          <button
+            id="scheme-btn"
+            type="button"
+            className="btn btn-primary btn-lg"
+            color="white !important"
+          >
+            Read More
+          </button>
+        </Link>
       </div>
       <Sponsor />
     </div>

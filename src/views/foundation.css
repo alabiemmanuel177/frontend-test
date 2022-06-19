@@ -84,12 +84,12 @@
   font-size: 14px;
 }
 .foundation_scheme {
-  width: 100%;
+  /* width: 100%; */
 }
 .scheme_post{  
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .sch_post{
   margin-right: 20px;
