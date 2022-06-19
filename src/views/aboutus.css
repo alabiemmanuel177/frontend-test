@@ -1,4 +1,4 @@
-.header {
+/* .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,8 +60,7 @@
   line-height: 150%;
   letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.71);
-  /* width: 800px; */
-  /* height: 400px; */
+
   position: relative;
   top: -100px;
 }
@@ -251,7 +250,7 @@
   }
 
   .mission-statement{
-    /* height: 1300px; */
+  
     margin-bottom: 100px;
   }
 
@@ -360,4 +359,259 @@
 
 
   
+} */
+
+/* .banner{
+  height: 200px;
+  
+}
+
+.header{
+  background-color: white !important;
+}
+
+.split{
+ 
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+ 
+}
+
+
+.image1{
+  width: 640px;
+  border-radius: 10px;
+}
+
+.intro{
+  width: 40%;
+ 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 5px;
+  transform: translate( -80px);
+  background-color: white !important;
+  height: 350px;
+  position: relative;
+  top: 18px;
+  
+
+  
+}
+
+.mosque-image{
+  width: 60%;
+  margin-top: 80px;
+ 
+
+}
+
+.aboutus{
+ 
+}
+
+.color{
+  color: #ca971a;
+}
+
+.mission-statement{
+  background-color: rgb(233, 233, 233);
+  padding: 10%;
+}
+
+.founder{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.founder-pic{
+  width: 300px;
+  border: 3px solid white;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+}
+
+.text1{
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.image2{
+    width: 40%;
+    
+}
+
+
+
+.team{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 30px;
+  gap: 3px;
+  background-color: #faf9f9;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.59);
+  margin-bottom: 50px;
+}
+
+.image-wrap{
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.car{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap ;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 5%;
+
+}
+
+.border{
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+   flex-wrap: wrap !important;
+   width: 200px;
+   text-align: center;
+}
+
+.center{
+  text-align: center;
+  margin-top: 50px !important;
+} */
+
+
+/* .about{
+  width: 40%;
+  position: absolute;
+  top: 400px;
+  right:10px
+} */
+
+.aboutus-font{
+  font-size: 20px;
+}
+
+.image-holder{
+ background-color: black;
+ margin-top: 5%;
+}
+
+.founder1{
+  opacity: 0.5 !important;
+  
+}
+
+.cart{
+  width: 65%;
+}
+ .cart2{
+   width: 35%;
+ }
+
+ .founder-txt{
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   top: 290px;
+   z-index: 20;
+   color: white;
+   margin-right: 10%;
+ }
+ .head-color{
+  color:rgb(40,218,108)
+}
+
+.team-arr{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap !important;
+  padding-top: 50px;
+  
+ }
+
+.team{
+    margin-left: 15%;
+  margin-right: 15%;
+ 
+  border-radius: 5px;
+  /* margin-bottom: 1000px; */
+
+ 
+}
+
+.center{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.btn-arr{
+  background-color:rgb(40,218,108);
+  border: 1px solid rgb(40,218,108);
+  font-size: 15px;
+  padding: 5px;
+  color:white;
+}
+
+.long-btn{
+  background-color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 5px;
+  
+}
+
+.spc1{
+  background-color: whitesmoke;
+ padding-bottom: 100px;
+ padding-top: 100px;
+ text-align: center;
+}
+
+.red{
+  margin: auto;
+  width: 30%;
+  border-bottom: 3px solid #000487;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.text-arr{
+  line-height: 0.5;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.team-name{
+  font-size: 20px
+
 }
