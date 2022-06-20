@@ -9,7 +9,7 @@ export const Homecards = () => {
       <div className="home_aboutus">
         <div className="home_aboutus_image">
           <img
-            src="https://preview.colorlib.com/theme/chariter/assets/img/gallery/xabout.jpg.pagespeed.ic.jiiWnfFI-S.webp"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655735299/Ibeji%20Foundation/70ea5959-4c83-4298-82f6-66cfd4bc1889_xirmlb.jpg"
             height={"510px"}
             width={"636px"}
             className="about-img"
