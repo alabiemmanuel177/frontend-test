@@ -123,9 +123,10 @@ export const Footer = () => {
           </div>
         )}
       </Formik>
+      <div className="fold">
       <div className="footer-links">
         <div className="footer-logo">
-          <img src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" height={"150px"} alt="" />
+          <img src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" className="ibeji-logo" height={"150px"} alt="" />
         </div>
         <div className="footer-socials">
           <img src="icons/facebook.png" alt="" />
@@ -135,7 +136,8 @@ export const Footer = () => {
         </div>
       </div>
       <div className="google_maps">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2304095148406!2d3.3794393153391216!3d6.492483625322979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c887fdd5879%3A0xe4973e73d556bede!2s165%20Herbert%20Macaulay%20Way%2C%20Adekunle%20101245%2C%20Lagos!5e0!3m2!1sen!2sng!4v1655499750959!5m2!1sen!2sng" width="400" height="300" style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2304095148406!2d3.3794393153391216!3d6.492483625322979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c887fdd5879%3A0xe4973e73d556bede!2s165%20Herbert%20Macaulay%20Way%2C%20Adekunle%20101245%2C%20Lagos!5e0!3m2!1sen!2sng!4v1655499750959!5m2!1sen!2sng" width="400" height="300" style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="car"/>
+      </div>
       </div>
     </div>
   );

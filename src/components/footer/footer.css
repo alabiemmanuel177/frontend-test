@@ -55,6 +55,33 @@ form .col-12 button:hover {
     width: 45%;
     margin-left: 10px;
   }
+
+  .fold{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .car{
+     width: 300px;
+     height: 200px;
+  }
+
+  .ibeji-logo{
+    height: 100px;
+  }
+
+  /* .footer-links{
+    margin-left: 20%;
+  } */
+
+  .footer{
+    margin-top: 300px;
+  }
+  .footer-form {
+    width: 100%;
+  }
+
+
 }
 
 @media screen and (max-width: 425px) {
@@ -62,13 +89,29 @@ form .col-12 button:hover {
     display: flex;
     flex-direction: column;
     margin-top: 300px;
-    height: 700px;
+    height: 1000px;
   }
 
-  .footer-form {
-    width: 80%;
-  }
+ .footer-form{
+  width: 80% !important;
+ }
+.footer-links{
+
+ margin-left: 20% !important ;
 }
+ 
+}
+
+@media screen and (max-width:375px) {
+  .footer-links{
+
+    margin-left: 23% !important ;
+   }
+    
+  
+}
+
+
 
 .label-txt {
   color: white !important;
@@ -83,3 +126,37 @@ form .col-12 button:hover {
 .google_maps iframe{
   border-radius: 20px;
 }
+
+@media screen and (max-width:1024px) {
+
+
+  .fold{
+    display: flex;
+    flex-direction: row;
+  }
+  
+}
+
+
+@media screen and (max-width:1366px) {
+  .fold{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-form {
+    width: 40% ;
+    margin-left: 0px;
+  }
+
+  .form-links{
+    margin-left: 0px !important;
+  }
+  
+  .footer-links{
+    margin-left: 0% ;
+    margin-right: 50px;
+  }
+  
+}
+

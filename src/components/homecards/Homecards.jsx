@@ -12,6 +12,7 @@ export const Homecards = () => {
             src="https://preview.colorlib.com/theme/chariter/assets/img/gallery/xabout.jpg.pagespeed.ic.jiiWnfFI-S.webp"
             height={"510px"}
             width={"636px"}
+            className="about-img"
             alt=""
           />
         </div>

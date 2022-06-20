@@ -53,6 +53,7 @@
   align-items: center;
   width: 1140px;
   margin-bottom: 50px;
+  
 }
 .ourschemes_card {
   font-size: 21px;
@@ -106,183 +107,175 @@
   color: rgba(72, 185, 117, 0.98);
 }
 
-@media screen and (max-width: 1366px) {
-  .aboutus-card {
-    display: flex;
-    flex-direction: row;
+@media screen and (max-width:1024px) {
+
+  .home_aboutus_text{
+    width: 400px;
+  }
+  .home_aboutus{
     width: 1000px;
-    height: 300px;
-    background-color: #ca971a;
-    border-radius: 20px;
-    align-items: center;
-    padding: 63px 34px;
-    /* gap: 129px; */
-    margin-bottom: 50px;
-    box-shadow: rgba(46, 240, 46, 0.4) -5px 5px,
-      rgba(46, 240, 65, 0.3) -10px 10px;
+  }
+  .about-img{
+    width: 400px;
   }
 
-  .aboutus-text h1 {
-    font-size: 23px;
-  }
-  .aboutus-text p {
-    font-size: 15px;
-  }
 
-  .aboutus-button button {
-    width: 180px !important;
-    height: 53px;
-  }
+  
 
-  .btn-pos {
-    position: relative;
-    top: -5px;
-  }
 
-  .aboutus-text {
-    width: 70%;
-    margin-left: 5%;
-  }
-
-  .aboutus-button {
-    margin-right: 5%;
-  }
-
-  .work-card-image img {
-    width: 250px;
-    height: 300px;
-  }
-  .work-card {
+  .our_schemes{
+    width: 1000px;
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    height: 421px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    gap: 129px;
+    justify-content: space-evenly;
+  }
+
+
+  
+}
+
+
+@media screen and (max-width:768px) {
+  .home_aboutus{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 200px;
+  }
+  .our_schemes{
+    width: 700px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .ourschemes{
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+  .ourschemes_card{
+    margin-bottom: 30px;
+  }
+
+  .about-img{
+    width: 700px;
+    margin-left: 7%;
+
+  }
+
+  /* .home_aboutus_image{
+    width: 700px;
+  } */
+
+  .home_aboutus_text{
+    width: 700px;
+  }
+  
+}
+
+
+@media screen and (max-width:425px) {
+  .home_aboutus{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 200px;
+  }
+
+  .about-img{
+    width: 400px;
+    margin-left: 12%;
+
+  }
+  .home_aboutus_text{
+    width: 400px;
+  }
+
+   /* .home_aboutus_image{
+    width: 400px;
+  } */
+
+  .our_schemes{
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ourschemes{
+    margin-bottom: 1100px;
+    margin-top: 400px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .aboutus-card {
+@media screen and (max-width:375px) {
+
+  .home_aboutus{
     display: flex;
-    flex-direction: row;
-    width: 750px;
-    height: 300px;
-    background-color: #ca971a;
-    border-radius: 20px;
-    align-items: center;
-    padding: 63px 34px;
-    margin-bottom: 50px;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 200px;
+  }
+  
+  .about-img{
+    width: 350px;
+    margin-left: 14%;
+
   }
 
-  .work-card-image img {
-    width: 200px !important;
-    height: 300px;
+  .home_aboutus_text{
+    width: 350px;
   }
 
-  .work-card {
+  .our_schemes{
+    width: 350px;
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
-    padding: 0px;
-    height: 421px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    gap: 50px;
+    justify-content: space-evenly;
+    
   }
 
-  .aboutus-text h1 {
-    font-size: 16px;
+  .ourschemes{
+    margin-bottom: 1100px;
+    margin-top: 400px;
   }
-
-  .aboutus-text p {
-    font-size: 12px !important;
-  }
+  
 }
 
-@media screen and (max-width: 425px) {
-  .aboutus-card {
+
+@media screen and (max-width:320px){
+  .home_aboutus{
     display: flex;
-    flex-direction: column !important;
-    height: 450px;
-    width: 425px;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 200px;
   }
 
-  .aboutus-text {
-    width: 100%;
+  .about-img{
+    width: 300px;
+    margin-left: 17%;
+
   }
 
-  .aboutus-button {
-    position: relative;
-    bottom: 1px;
-  }
-
-  .aboutus-button button {
+  .home_aboutus_text{
     width: 300px;
   }
 
-  .work-card {
+  .our_schemes{
+    width: 300px;
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: column !important;
-    margin-bottom: 100px;
-    margin-top: 450px;
-    margin-bottom: 250px;
+    justify-content: space-evenly;
+    
   }
 
-  .work-card-image {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .aboutus-card {
-    width: 375px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .aboutus-card {
-    width: 320px !important;
-  }
-}
-
-@media screen and (max-width: 2560px) {
-  .aboutus-card {
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    align-items: center;
-    padding: 63px 34px;
-    margin-bottom: 50px;
-  }
-
-  .aboutus-button {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .aboutus-button button {
-    width: 150px;
-    padding: 20px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .work-card {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    height: 421px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    gap: 100px;
-  }
-
-  .work-card-image img {
-    width: 200px;
-    height: 300px;
-  }
+  
 }

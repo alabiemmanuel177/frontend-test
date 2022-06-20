@@ -9,12 +9,12 @@ export const Navbar = () => {
       <div className="logo">
         <img src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" className="logo-size" alt="" />
       </div>
-      <div className="navbar-btn">
-        <Link to="/" className="Nlink">
+      <div className="navbar-btn navbar-btn1">
+        <Link to="/" className="Nlink link-pos2">
           <a>Home</a>
         </Link>
         <div className="dropdown">
-          <Link to="/aboutus" className="Nlink abt-pos">
+          <Link to="/aboutus" className="Nlink abt-pos ">
             <a>About Us</a>
           </Link>
           <div className="dropdown-content">
@@ -35,13 +35,13 @@ export const Navbar = () => {
             </a>
           </div>
         </div>
-        <Link to="/thefoundation" className="Nlink">
+        <Link to="/thefoundation" className="Nlink link-pos2">
           <a>The Foundation</a>
         </Link>
-        <Link to="/project" className="Nlink">
+        <Link to="/project" className="Nlink link-pos2">
           <a>Project</a>
         </Link>
-        <button type="button" className="btn btn-primary btn-lg">Donate</button>
+        <button type="button" className="donate-btn Nlink">Donate</button>
         <div className="dropdown">
           <Link to="#" className=" dropbtn hamburger">
             <a>

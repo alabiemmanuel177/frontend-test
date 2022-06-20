@@ -37,42 +37,42 @@ export const Aboutus = () => {
                 {/* <h1 className="center head-color">Our Team</h1> */}
                 <div className="team-arr">
                 <div className=" ">
-                <img src="/images/staticStaff.jpg" width="250px" alt="" />
+                <img src="/images/staticStaff.jpg" className="staff-img" width="250px" alt="" />
                 <div className="text-arr">
                 <p className="team-name">Iyidemilade Nasiru Halim</p>
                 <p>head of sales</p>
                 </div> 
                 </div>
                 <div className="">
-                <img src="/images/staticStaff.jpg" width="250px" alt="" />
+                <img src="/images/staticStaff.jpg" className="staff-img" width="250px" alt="" />
                 <div className="text-arr">
                 <p className="team-name">Iyidemilade Nasiru Halim</p>
                 <p>head of sales</p>
                 </div>
                 </div>
                 <div className="">
-                <img src="/images/staticStaff.jpg" width="250px" alt="" />
+                <img src="/images/staticStaff.jpg" className="staff-img" width="250px" alt="" />
                 <div className="text-arr">
                 <p className="team-name">Iyidemilade Nasiru Halim</p>
                 <p>head of sales</p>
                 </div>
                 </div>
                 <div className="mb-5">
-                <img src="/images/staticStaff.jpg" width="250px" alt="" />
+                <img src="/images/staticStaff.jpg" className="staff-img" width="250px" alt="" />
                 <div className="text-arr">
                 <p className="team-name">Iyidemilade Nasiru Halim</p>
                 <p>head of sales</p>
                 </div>
                 </div>
                 <div className="mb-5">
-                <img src="/images/staticStaff.jpg" width="250px" alt="" />
+                <img src="/images/staticStaff.jpg" className="staff-img" width="250px" alt="" />
                 <div className="text-arr">
                 <p className="team-name">Iyidemilade Nasiru Halim</p>
                 <p>head of sales</p>
                 </div>
                 </div>
                 <div className="mb-5">
-                <img src="/images/staticStaff.jpg" width="250px" alt="" />
+                <img src="/images/staticStaff.jpg" className="staff-img" width="250px" alt="" />
                 <div className="text-arr">
                 <p className="team-name">Iyidemilade Nasiru Halim</p>
                 <p>head of sales</p>

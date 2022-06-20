@@ -32,23 +32,23 @@ export const Foundation = () => {
             <h1>Health</h1>
             <p>
               We support Some indigent sick people whose treatment involve major
-              <br></br>
+              
               surgeries or operations are treated free of charge with our
-              <br></br>
+              
               affiliate Health care centre ( Federal Medical Centre Ebute Meta )
               .
             </p>
             <p>
               The foundation has supported some pregnant women that cannot
-              <br></br>
+            
               afford to pay their Labour fees , We have also supported some
-              <br></br>
+          
               hospitals in Nigeria by purchasing medical equipments for their
-              <br></br>
+          
               emergency and accidental units. We have purchased Endo Skelental
-              <br></br>
+       
               Prosthesis for a NYSC corper of olabisi Onabanjo University
-              <br></br>
+            
               graduate serving at Sokoto who was involved in a fatal accident.
             </p>
           </div>
@@ -72,25 +72,25 @@ export const Foundation = () => {
             <h1>Health</h1>
             <p>
               We support Some indigent sick people whose treatment involve major
-              <br></br>
+           
               surgeries or operations are treated free of charge with our
-              <br></br>
+           
               affiliate Health care centre ( Federal Medical Centre Ebute Meta )
-              <br></br>.
+             
             </p>
             <p>
               The foundation has supported some pregnant women that cannot
-              <br></br>
+            
               afford to pay their Labour fees , We have also supported some
-              <br></br>
+         
               hospitals in Nigeria by purchasing medical equipments for their
-              <br></br>
+         
               emergency and accidental units. We have purchased Endo Skelental
-              <br></br>
+           
               Prosthesis for a NYSC corper of olabisi Onabanjo University
-              <br></br>
+        
               graduate serving at Sokoto who was involved in a fatal accident.
-              <br></br>
+             
             </p>
           </div>
           <div className="scheme_post">
@@ -113,20 +113,20 @@ export const Foundation = () => {
             <h1>Education</h1>
             <p>
               We have supported and sponsored some Nigerian Scholars in the
-              <br></br>
+         
               Publication of useful books for the society. Provision of<br></br>
               infrastructural facilities to religious places and communities
-              <br></br>
+              
               such as drilling of borehole for portable water ; such as<br></br>
               Temi-tope Mosque Ita Odo ijebu Ogbomosho etc<br></br>
             </p>
             <p>
               Financed the modern translation of the holy Qur'an from Arabic to
-              <br></br>
+            
               Yoruba. This is awaiting publication. Involve in research work
-              <br></br>
+            
               that are beneficial to the generality of people and community.
-              <br></br>
+            
             </p>
           </div>
           <div className="scheme_post">
@@ -149,25 +149,25 @@ export const Foundation = () => {
             <h1>Empowerment</h1>
             <p>
               We support Some indigent sick people whose treatment involve major
-              <br></br>
+             
               surgeries or operations are treated free of charge with our
-              <br></br>
+          
               affiliate Health care centre ( Federal Medical Centre Ebute Meta )
-              <br></br>.
+             
             </p>
             <p>
               The foundation has supported some pregnant women that cannot
-              <br></br>
+          
               afford to pay their Labour fees , We have also supported some
-              <br></br>
+            
               hospitals in Nigeria by purchasing medical equipments for their
-              <br></br>
+         
               emergency and accidental units. We have purchased Endo Skelental
-              <br></br>
+         
               Prosthesis for a NYSC corper of Olabisi Onabanjo University
-              <br></br>
+      
               graduate serving at Sokoto who was involved in a fatal accident.
-              <br></br>
+      
             </p>
           </div>
           <div className="scheme_post">
@@ -190,9 +190,9 @@ export const Foundation = () => {
             <h1>Humanitarian Relief</h1>
             <p>
               By sponsoring Special Prayers with Radio Stations during Ramadan
-              <br></br>
+            
               Period; supporting Muslim Burials, Walimatul Qur'an and Islamic
-              <br></br>
+          
               Competitions, School end of year programs.<br></br>
             </p>
             <p>We have also donated to support Sokoto Flood Victims</p>
