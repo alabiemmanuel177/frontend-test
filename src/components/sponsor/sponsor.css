@@ -52,12 +52,12 @@
     display: flex;
     flex-wrap: wrap;
     width: 700px;
-    margin-bottom: 250px;
+  
   }
 
   .sponsor-card {
     margin-top: 100px;
-    margin-bottom: 100px;
+  
     width: 100%;
     height: 990px;
     background-color: whitesmoke;
@@ -82,7 +82,9 @@
   }
 
   .sponsor-card {
-    height: 1800px;
+    height: 1640px;
+    /* padding-bottom: 500px !important */
+    ;
   }
 }
 
@@ -99,6 +101,6 @@
 
 @media screen and (max-width: 320px) {
   .sponsor-card {
-    margin-bottom: 5000px !important;
+    
   }
 }
