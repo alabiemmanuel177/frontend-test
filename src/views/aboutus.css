@@ -1,102 +1,92 @@
-
-
-.aboutus-font{
+.aboutus-font {
   font-size: 20px;
 }
-
-.image-holder{
- background-color: black;
- margin-top: 5%;
+.image-holder {
+  background-color: black;
+  margin-top: 5%;
 }
-
-.founder1{
+.founder1 {
   opacity: 0.5 !important;
-  
 }
-
-.cart{
-  width: 65%;
+.cart {
+  width: 80%;
 }
- .cart2{
-   width: 35%;
- }
-
- .founder-txt{
-   display: flex;
-   flex-direction: row;
-   position: absolute;
-   top: 290px;
-   z-index: 20;
-   color: white;
-   margin-right: 10%;
- }
- .head-color{
-  color:rgb(40,218,108)
+.cart2 {
+  width: 35%;
 }
-
-.team-arr{
+.founder-txt h1 {
+  font-size: 33px;
+  font-family: "Lato";
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.founder-txt h2 {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: bold;
+}
+.founder-txt p {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #b9b7b7;
+}
+.founder-txt {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 400px;
+  z-index: 20;
+  color: white;
+  align-items: right;
+}
+.team-arr {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap !important;
   padding-top: 50px;
-  
- }
-
-.team{
-    margin-left: 15%;
-  margin-right: 15%;
- 
-  border-radius: 5px;
-  /* margin-bottom: 1000px; */
-
- 
 }
-
-.center{
+.team {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 5px;
+}
+.center {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-
-.btn-arr{
-  background-color:rgb(40,218,108);
-  border: 1px solid rgb(40,218,108);
+.btn-arr {
+  background-color: rgb(40, 218, 108);
+  border: 1px solid rgb(40, 218, 108);
   font-size: 15px;
   padding: 5px;
-  color:white;
+  color: white;
 }
-
-.long-btn{
+.long-btn {
   background-color: white;
   border: 1px solid white;
   font-size: 15px;
   padding: 5px;
-  
 }
-
-.spc1{
+.spc1 {
   background-color: whitesmoke;
- padding-bottom: 100px;
- padding-top: 100px;
- text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: center;
 }
-
-.red{
+.red {
   margin: auto;
   width: 30%;
   border-bottom: 3px solid #000487;
   padding: 10px;
   margin-bottom: 20px;
 }
-
-.text-arr{
+.text-arr {
   line-height: 0.5;
   margin-top: 20px;
   margin-bottom: 50px;
-
 }
 
 .team-name{

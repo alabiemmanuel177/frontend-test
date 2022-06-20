@@ -48,7 +48,7 @@ export const Navbar = () => {
               <GiHamburgerMenu />
             </a>
           </Link>
-          <div className="dropdown-content">
+          <div className="dropdown-content drop">
             <Link to="/" className="Nlink">
               <a>Home</a>
             </Link>

@@ -63,7 +63,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* width: 100%; */
   padding: 50px 0px;
   justify-content: space-between;
 }
@@ -84,15 +83,49 @@
   font-size: 14px;
 }
 .foundation_scheme {
-  width: 100%;
 }
-.scheme_post{  
+.scheme_post {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
-.sch_post{
+.sch_post {
   margin-right: 20px;
+  height: 270px;
+  width: 270px;
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1655638845/Ibeji%20Foundation/7-ngo-help-children-intro_bzpygv.jpg");
+  background-color: black;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  color: gray;
+  border-top: 0.5px;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sch_post h2 {
+  color: white;
+  font-family: "Lato";
+  font-size: 11px;
+}
+.sch_post h3 {
+  color: white;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: bold;
 }
 
 
