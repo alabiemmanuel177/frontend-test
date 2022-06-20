@@ -71,7 +71,12 @@
 }
 #scheme-btn{
   border: #28da6c solid 2px !important;
-
+  background-color: white !important;
+  color: #28da6c;
+}
+#scheme-btn:hover{
+  color: white;
+  background-color: #28da6c !important;
 }
 
 .work-card {
