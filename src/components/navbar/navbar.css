@@ -48,6 +48,9 @@
     margin-left: 13% !important;
   }
 
+
+
+
   
 
   .dropdown-content{
@@ -55,6 +58,10 @@
   }
 
 }
+
+
+
+
 @media screen and (max-width:425px) {
   .Nlink{
     display: none;
@@ -210,3 +217,4 @@
   border-radius: 2px;
 
 }
+
