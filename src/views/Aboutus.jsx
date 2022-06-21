@@ -7,7 +7,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const Aboutus = () => {
   return (
-    <div>
+    <div >
       <Navbar />
       <div>
         <div className="image-holder">
@@ -20,7 +20,7 @@ export const Aboutus = () => {
               className="founder1"
             />
           </div>
-          <div className="founder-txt">
+          <div className="founder-txt" data-aos="fade-down-left">
             <div className="cart"></div>
             <div className="cart2 aboutus-font">
               <h1 className="head-color">Iyidemilade Nasiru</h1>
