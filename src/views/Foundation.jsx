@@ -10,8 +10,8 @@ export const Foundation = () => {
   return (
     <div className="thefoundation">
       <Navbar />
-      <div className="our_initiatives">
-        <div className="initiatives_text">
+      <div className="our_initiatives" >
+        <div className="initiatives_text" data-aos="flip-left">
           <h2>Ibeji Foundation</h2>
           <h1>Our Initiatives</h1>
           <p>
@@ -30,7 +30,7 @@ export const Foundation = () => {
         </div>
       </div>
       <div className="foundation_scheme">
-        <div className="scheme">
+        <div className="scheme"  data-aos="fade-down">
           <div className="scheme_text">
             <h1>Health</h1>
             <p>
@@ -68,7 +68,7 @@ export const Foundation = () => {
           </div>
         </div>
         <hr />
-        <div className="scheme">
+        <div className="scheme"  data-aos="fade-down">
           <div className="scheme_text">
             <h1>Religious Reliefs</h1>
             <p>
@@ -107,7 +107,7 @@ export const Foundation = () => {
           </div>
         </div>
         <hr />
-        <div className="scheme">
+        <div className="scheme"  data-aos="fade-down">
           <div className="scheme_text">
             <h1>Education</h1>
             <p>
@@ -141,7 +141,7 @@ export const Foundation = () => {
           </div>
         </div>
         <hr />
-        <div className="scheme">
+        <div className="scheme"  data-aos="fade-down">
           <div className="scheme_text">
             <h1>Empowerment</h1>
             <p>
@@ -180,7 +180,7 @@ export const Foundation = () => {
           </div>
         </div>
         <hr />
-        <div className="scheme">
+        <div className="scheme"  data-aos="fade-down">
           <div className="scheme_text">
             <h1>Humanitarian Relief</h1>
             <p>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const Homecards = () => {
   return (
     <div className="card-container">
-      <div className="home_aboutus">
+      <div className="home_aboutus" data-aos="fade-down">
         <div className="home_aboutus_image">
           <img
             src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655735299/Ibeji%20Foundation/70ea5959-4c83-4298-82f6-66cfd4bc1889_xirmlb.jpg"
@@ -42,7 +42,7 @@ export const Homecards = () => {
           </Link>
         </div>
       </div>
-      <div className="ourschemes">
+      <div className="ourschemes" data-aos="fade-up">
         <h1>Our Schemes</h1>
         <div className="our_schemes">
           <div className="ourschemes_card">
