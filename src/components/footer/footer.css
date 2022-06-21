@@ -5,7 +5,6 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  margin-top: 100px;
 }
 .footer-form {
   width: 45%;
@@ -38,7 +37,7 @@ form .col-12 button:hover {
   flex-direction: row;
 }
 .footer-socials img {
-  margin: 10px;
+  margin-right: 10px;
   height: 40px;
   width: 40px;
 }
@@ -49,6 +48,26 @@ form .col-12 button:hover {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 2560px) {
+  .fold {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-form {
+    width: 40%;
+    margin-left: 0px;
+  }
+
+  .form-links {
+    margin-left: 0px !important;
+  }
+
+  .footer-links {
+    margin-left: 0%;
+    margin-right: 150px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .footer-form {
@@ -56,62 +75,50 @@ form .col-12 button:hover {
     margin-left: 10px;
   }
 
-  .fold{
+  .fold {
     display: flex;
     flex-direction: column !important;
   }
 
-  .car{
-     width: 300px;
-     height: 200px;
+  .car {
+    width: 300px;
+    height: 200px;
   }
 
-  .ibeji-logo{
-    height: 100px;
-  }
-
-  /* .footer-links{
-    margin-left: 20%;
-  } */
-
-  .footer{
-    margin-top: 300px;
+  .ibeji-logo {
+    height: 80px;
+    margin-bottom: 10px !important
+  
   }
   .footer-form {
     width: 100%;
   }
-
-
+  .footer-links{
+    margin-left: 20% !important;
+    margin-bottom: 20px !important;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .footer {
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
     height: 1000px;
   }
 
- .footer-form{
-  width: 80% !important;
- }
-.footer-links{
-
- margin-left: 20% !important ;
-}
- 
+  .footer-form {
+    width: 80% !important;
+  }
+  .footer-links {
+    margin-left: 20% !important ;
+  }
 }
 
-@media screen and (max-width:375px) {
-  .footer-links{
-
+@media screen and (max-width: 375px) {
+  .footer-links {
     margin-left: 23% !important ;
-   }
-    
-  
+  }
 }
-
-
 
 .label-txt {
   color: white !important;
@@ -123,40 +130,37 @@ form .col-12 button:hover {
 .google_maps {
   margin-right: 5%;
 }
-.google_maps iframe{
+.google_maps iframe {
   border-radius: 20px;
 }
 
-@media screen and (max-width:1024px) {
-
-
-  .fold{
+@media screen and (max-width: 1024px) {
+  .footer{
+    padding: 20px;
+  }
+  .fold {
     display: flex;
     flex-direction: row;
   }
-  
 }
 
-
-@media screen and (max-width:1366px) {
-  .fold{
+@media screen and (max-width: 1366px) {
+  .fold {
     display: flex;
     flex-direction: row;
   }
 
   .footer-form {
-    width: 40% ;
+    width: 40%;
     margin-left: 0px;
   }
 
-  .form-links{
+  .form-links {
     margin-left: 0px !important;
   }
-  
-  .footer-links{
-    margin-left: 0% ;
+
+  .footer-links {
+    margin-left: 0%;
     margin-right: 50px;
   }
-  
 }
-
