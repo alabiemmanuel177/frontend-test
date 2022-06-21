@@ -42,7 +42,7 @@ export const Aboutus = () => {
         <div>
           <div className="spc1">
             <div className="red">
-              <h1 className="head-color">Our Esteemed Team</h1>
+              <h1 className="head-color" data-aos="fade-right">Our Esteemed Team</h1>
             </div>
             <p>
               Our senior executives bring tremendous experience, visionary

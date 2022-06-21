@@ -94,6 +94,16 @@
 
 }
 
+@media screen and (max-width:1366px) {
+  .cart2{
+    width: 60% ;
+    margin-right: 5%;
+  }
+
+ 
+  
+}
+
 
 @media screen and (max-width:768px) {
   .aboutus-font{
