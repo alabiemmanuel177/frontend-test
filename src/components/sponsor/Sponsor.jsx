@@ -10,15 +10,15 @@ export const Sponsor = () => {
         <div className="image">
           <img
             src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879249/Ibeji%20Foundation/Markaz_vgxsgn.jpg"
-            alt="" width={"170px"}
-            height= {"68px"}
+            alt=""
+            height= {"150px"}
           />
         </div>
         <div className="image"data-aos="fade-right">
           <img
             src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879470/Ibeji%20Foundation/nasfat_dkv93x.png"
-            alt="" width= {"170px"}
-            height= {"68px"}
+            alt=""
+            height= {"100px"}
           />
         </div>
         <div className="image"data-aos="fade-right">
@@ -38,15 +38,12 @@ export const Sponsor = () => {
         <div className="image" data-aos="fade-right">
           <img
             src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879473/Ibeji%20Foundation/unifemga_fyaqtv.jpg"
-            alt="" width= {"170px"}
-            height= {"68px"}
+            height= {"150px"}
           />
         </div>
         <div className="image" data-aos="fade-right">
           <img
             src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879682/Ibeji%20Foundation/js_uyrapl.png"
-            alt="" width= {"170px"}
-            height= {"68px"}
           />
         </div>
         <div className="image" data-aos="fade-right">
