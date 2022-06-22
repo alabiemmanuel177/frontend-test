@@ -9,14 +9,14 @@ export const Sponsor = () => {
       <div className="sponsor-card-images" data-aos="fade-right">
         <div className="image">
           <img
-            src="https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879249/Ibeji%20Foundation/Markaz_vgxsgn.jpg"
             alt="" width={"170px"}
             height= {"68px"}
           />
         </div>
         <div className="image"data-aos="fade-right">
           <img
-            src="https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879470/Ibeji%20Foundation/nasfat_dkv93x.png"
             alt="" width= {"170px"}
             height= {"68px"}
           />
@@ -37,21 +37,21 @@ export const Sponsor = () => {
         </div>
         <div className="image" data-aos="fade-right">
           <img
-            src="https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879473/Ibeji%20Foundation/unifemga_fyaqtv.jpg"
             alt="" width= {"170px"}
             height= {"68px"}
           />
         </div>
         <div className="image" data-aos="fade-right">
           <img
-            src="https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879682/Ibeji%20Foundation/js_uyrapl.png"
             alt="" width= {"170px"}
             height= {"68px"}
           />
         </div>
         <div className="image" data-aos="fade-right">
           <img
-            src="https://www.macmillandictionary.com/external/slideshow/thumb/Grey_thumb.png"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879469/Ibeji%20Foundation/Fomwan_fopppm.jpg"
             alt="" width= {"170px"}
             height= {"68px"}
           />
