@@ -9,7 +9,7 @@ export const Homecards = () => {
       <div className="home_aboutus" data-aos="fade-down" data-aos-duration="2000">
         <div className="home_aboutus_image">
           <img
-            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655735299/Ibeji%20Foundation/70ea5959-4c83-4298-82f6-66cfd4bc1889_xirmlb.jpg"
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655878752/Ibeji%20Foundation/imageedit_2_5213426620_cmqtfb.jpg"
             height={"510px"}
             width={"636px"}
             className="about-img"
