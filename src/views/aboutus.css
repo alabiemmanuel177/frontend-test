@@ -3,7 +3,6 @@
 }
 .image-holder {
   background-color: black;
-  margin-top: 5%;
 }
 .founder1 {
   opacity: 0.5 !important;
@@ -88,33 +87,59 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
-
-.team-name{
-  font-size: 20px
-
+.team-name {
+  font-size: 20px;
 }
-
-@media screen and (max-width:1366px) {
-  .cart2{
-    width: 60% ;
+.history {
+  /* height: 50vh; */
+}
+.history_text{
+  padding: 70px;
+  text-align: center;
+}
+.aboutus_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* height: 50vh; */
+  align-items: center;
+  margin-bottom: 100px;
+}
+.ourvision {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.ourmission {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold !important;
+  color: #28da6c !important;
+}
+.h3{
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+@media screen and (max-width: 1366px) {
+  .cart2 {
+    width: 60%;
     margin-right: 5%;
   }
-
- 
-  
 }
-
-
-@media screen and (max-width:768px) {
-  .aboutus-font{
+@media screen and (max-width: 768px) {
+  .aboutus-font {
     font-size: 15px;
   }
 
-  h1{
+  h1 {
     font-size: 25px !important;
   }
 
-  .founder-txt{
+  .founder-txt {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -124,71 +149,53 @@
     margin-right: 10%;
   }
 
-  .cart{
+  .cart {
     width: 65%;
   }
-   .cart2{
-     width: 35%;
-   }
-
-  
+  .cart2 {
+    width: 35%;
+  }
 }
-
-@media screen and (max-width:425px) {
-
-  .cart{
+@media screen and (max-width: 425px) {
+  .cart {
     width: 0% !important;
   }
- 
-   .cart2{
-     width: 400px;
-     text-align: left;
-     margin-left: 12px;
-     
-   }
-
-   
-  
+  .cart2 {
+    width: 400px;
+    text-align: left;
+    margin-left: 12px;
+  }
 }
 
-@media screen and (max-width:375px) {
-
-  .cart{
+@media screen and (max-width: 375px) {
+  .cart {
     width: 0% !important;
   }
- 
-   .cart2{
-     width: 350px;
-     text-align: left;
-     margin-left: 12px;
-     
-   }
-
-   
+  .cart2 {
+    width: 350px;
+    text-align: left;
+    margin-left: 12px;
+  }
 }
 
-@media screen and (max-width:325px) {
-
-  .cart{
+@media screen and (max-width: 325px) {
+  .cart {
     width: 0% !important;
   }
- 
-   .cart2{
-     width: 300px;
-     text-align: left;
-     margin-left: 12px;
-     
-   }
-   .staff-img{
+
+  .cart2 {
+    width: 300px;
+    text-align: left;
+    margin-left: 12px;
+  }
+  .staff-img {
     width: 200px;
-   }
+  }
 
-   .red{
+  .red {
     margin: auto;
     width: 80%;
     border-bottom: 3px solid #000487;
     margin-bottom: 10px;
   }
-
-   
 }

@@ -7,7 +7,13 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" className="logo-size" alt="" />
+        <Link to="/">
+          <img
+            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
+            className="logo-size"
+            alt=""
+          />
+        </Link>
       </div>
       <div className="navbar-btn navbar-btn1">
         <Link to="/" className="Nlink link-pos2">
@@ -41,7 +47,9 @@ export const Navbar = () => {
         <Link to="/project" className="Nlink link-pos2">
           <a>Project</a>
         </Link>
-        <button type="button" className="donate-btn Nlink">Donate</button>
+        <button type="button" className="donate-btn Nlink">
+          Donate
+        </button>
         <div className="dropdown">
           <Link to="#" className=" dropbtn hamburger">
             <a>
