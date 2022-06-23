@@ -94,8 +94,10 @@
   /* height: 50vh; */
 }
 .history_text{
-  padding: 70px;
+  width: 90%;
+  margin-left: 5%;
   text-align: center;
+  margin-bottom: 100px;
 }
 .aboutus_content {
   display: flex;
@@ -197,5 +199,29 @@
     width: 80%;
     border-bottom: 3px solid #000487;
     margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .aboutus_content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ourvision{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .ourmission{
+    width: 80%;
+    text-align: center;
+  }
+
+  .history{
+    width: 80%;
+    margin-left: 10%;
   }
 }
