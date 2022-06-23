@@ -1,9 +1,12 @@
 .miniproject-text {
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .miniproject-text h1 {
     font-size: 30px;
     color: #CA971A;
+    /* margin-left: 20%; */
   }
   .miniproject-text h3{
       font-size: 24px;

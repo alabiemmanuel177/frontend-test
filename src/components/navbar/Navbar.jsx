@@ -23,8 +23,8 @@ export const Navbar = () => {
           <Link to="/aboutus" className="Nlink abt-pos ">
             <a>About Us</a>
           </Link>
-          <div className="dropdown-content">
-            <a href="history" className="about-link">
+          <div className="dropdown-content" > 
+            <a href="history" className="about-link" >
               Our History
             </a>
             <a href="#mission" className="about-link">
@@ -41,6 +41,9 @@ export const Navbar = () => {
             </a>
           </div>
         </div>
+       
+
+        
         <Link to="/thefoundation" className="Nlink link-pos2">
           <a>The Foundation</a>
         </Link>
