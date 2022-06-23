@@ -30,7 +30,7 @@ export const Project = () => {
       </div>
       <h1 className="whatwefund">What We Fund</h1>
       <div className="whatwe_fund">
-        <div id="OW_card" className="card" style={{ width: "18rem" }}>
+        {/* <div id="OW_card" className="card" style={{ width: "18rem" }}>
           <img
             src="https://borgenproject.org/wp-content/uploads/23379499480_a8b69dc31e_o-705x470.jpg"
             className="card-img-top"
@@ -99,6 +99,82 @@ export const Project = () => {
               VIEW MORE
             </a>
           </div>
+        </div> */}
+
+        <div className="fund_card_holder">
+          <div className="fund_card">
+            <div className="image_card">
+          <img
+            src="https://www.un.org/ruleoflaw/wp-content/uploads/2015/04/humanitarian.jpg"
+            className="card-img-top"
+            alt="..."
+          />
+          </div>
+           <div className="text_fund_card">
+            <h2>Health</h2>
+            <p>Some quick examples text to build on the card title and make up the bulk of the cards content 
+               </p>
+          </div>
+          <div className="text_btn-holder">
+            <button>View More</button>
+          </div>
+
+          </div>
+          <div className="fund_card">
+            <div className="image_card">
+          <img
+            src="https://www.un.org/ruleoflaw/wp-content/uploads/2015/04/humanitarian.jpg"
+            className="card-img-top" 
+            alt="..."
+          />
+          </div>
+          <div className="text_fund_card">
+            <h2>Education</h2>
+            <p>Some quick examples text to build on the card title and make up the bulk of the cards content 
+               </p>
+               
+          </div>
+          <div className="text_btn-holder">
+            <button>View More</button>
+          </div>
+
+          </div>
+          <div className="fund_card">
+          <div className="image_card">
+          <img
+            src="https://www.un.org/ruleoflaw/wp-content/uploads/2015/04/humanitarian.jpg"
+            className="card-img-top"
+            alt="..."
+          />
+          </div>
+          <div className="text_fund_card">
+            <h2>Empowerment</h2>
+            <p>Some quick examples text to build on the card title and make up the bulk of the cards content 
+               </p>
+          </div>
+          <div className="text_btn-holder">
+            <button>View More</button>
+          </div>
+          </div>
+          <div className="fund_card">
+          <div className="image_card">
+          <img
+            src="https://www.un.org/ruleoflaw/wp-content/uploads/2015/04/humanitarian.jpg"
+            className="card-img-top"
+            alt="..."
+          />
+          </div>
+          <div className="text_fund_card">
+            <h2>Humanitarian Relief</h2>
+            <p>Some quick examples text to build on the card title and make up the bulk of the cards content 
+              </p>
+          </div>
+          <div className="text_btn-holder">
+            <button>View More</button>
+          </div>
+          </div>
+
+
         </div>
       </div>
 
