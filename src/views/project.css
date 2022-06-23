@@ -1,0 +1,84 @@
+.ourwork {
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #28da6c;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  position: relative;
+  top: -100px;
+}
+#ourwork h1 {
+  color: white !important;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#ourwork h3 {
+  font-size: 20px;
+  color: white;
+}
+h1.whatwefund {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+h1.whatwefund:before,
+h1.whatwefund:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1.whatwefund:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1.whatwefund:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.whatwe_fund{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h5.card-title{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+p.card-text{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato';
+}
+#OW-btn{
+    color: #28da6c;
+    background-color: #fff;
+    border:1px solid #28da6c;
+    font-family: 'Lato';
+    font-size: 12px;
+}
+.card-body{
+    align-items: center !important;
+}
+#OW_card{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
