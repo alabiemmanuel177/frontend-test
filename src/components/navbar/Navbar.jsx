@@ -45,7 +45,7 @@ export const Navbar = () => {
           <a>The Foundation</a>
         </Link>
         <Link to="/project" className="Nlink link-pos2">
-          <a>Project</a>
+          <a>Our Work</a>
         </Link>
         <button type="button" className="donate-btn Nlink">
           Donate
