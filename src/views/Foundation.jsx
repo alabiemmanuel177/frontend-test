@@ -56,13 +56,11 @@ export const Foundation = () => {
             </p>
           </div>
           <div className="scheme_post">
-            <div className="sch_post">
-              <h2> BLOG POST</h2>
+            <div className="sch_post Health">
+              <h2> POST</h2>
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-                odit nobis rerum commodi obcaecati praesentium, corrupti aperiam
-                iure eos esse a aliquam quos accusamus unde dignissimos non!
-                Explicabo, rerum harum?
+                odit nobis rerum commodi
               </h3>
             </div>
           </div>
@@ -95,13 +93,11 @@ export const Foundation = () => {
             </p>
           </div>
           <div className="scheme_post">
-            <div className="sch_post">
-              <h2> BLOG POST</h2>
+            <div className="sch_post Religious">
+              <h2> POST</h2>
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-                odit nobis rerum commodi obcaecati praesentium, corrupti aperiam
-                iure eos esse a aliquam quos accusamus unde dignissimos non!
-                Explicabo, rerum harum?
+                odit nobis rerum commodi
               </h3>
             </div>
           </div>
@@ -129,13 +125,11 @@ export const Foundation = () => {
             </p>
           </div>
           <div className="scheme_post">
-            <div className="sch_post">
-              <h2> BLOG POST</h2>
+            <div className="sch_post Educa">
+              <h2> POST</h2>
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-                odit nobis rerum commodi obcaecati praesentium, corrupti aperiam
-                iure eos esse a aliquam quos accusamus unde dignissimos non!
-                Explicabo, rerum harum?
+                odit nobis rerum commodi
               </h3>
             </div>
           </div>
@@ -168,13 +162,11 @@ export const Foundation = () => {
             </p>
           </div>
           <div className="scheme_post">
-            <div className="sch_post">
-              <h2> BLOG POST</h2>
+            <div className="sch_post Empowerment">
+              <h2> POST</h2>
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-                odit nobis rerum commodi obcaecati praesentium, corrupti aperiam
-                iure eos esse a aliquam quos accusamus unde dignissimos non!
-                Explicabo, rerum harum?
+                odit nobis rerum commodi
               </h3>
             </div>
           </div>
@@ -193,13 +185,11 @@ export const Foundation = () => {
             <p>We have also donated to support Sokoto Flood Victims</p>
           </div>
           <div className="scheme_post">
-            <div className="sch_post">
-              <h2> BLOG POST</h2>
+            <div className="sch_post HumanRelief">
+              <h2> POST</h2>
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-                odit nobis rerum commodi obcaecati praesentium, corrupti aperiam
-                iure eos esse a aliquam quos accusamus unde dignissimos non!
-                Explicabo, rerum harum?
+                odit nobis rerum commodi 
               </h3>
             </div>
           </div>
