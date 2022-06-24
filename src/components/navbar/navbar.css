@@ -10,12 +10,12 @@
   flex: none;
   order: 2;
   flex-grow: 0;
-  /* color: #ffffff !important; */
+  color: #ffffff !important;
   display: flex;
 }
 .navbar-btn a {
   padding: 10px;
-  /* color: #ffffff !important; */
+  color: #ffffff !important;
   text-decoration: none;
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -67,11 +67,16 @@
 @media screen and (max-width:834px) {
   .navbar-btn a {
     padding: 10px;
-    color: red !important;
+    color: #ffffff !important;
     text-decoration: none;
     font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 14px;
+  }
+
+  .abt-pos{
+    position: relative;
+    top: 1px !important;
   }
   
 }
