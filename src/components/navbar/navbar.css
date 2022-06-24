@@ -66,12 +66,12 @@
 
 @media screen and (max-width:834px) {
   .navbar-btn a {
-    padding: 10px;
+    padding: 5px;
     color: #ffffff !important;
     text-decoration: none;
     font-family: "Lato", sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .abt-pos{
