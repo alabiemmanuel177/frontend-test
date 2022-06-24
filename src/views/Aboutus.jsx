@@ -13,6 +13,7 @@ export const Aboutus = () => {
           src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
           alt=""
           width={"100%"}
+          className="banner-head"
           
         />
         <div id="ourwork" className="ourwork">
@@ -29,6 +30,7 @@ export const Aboutus = () => {
               alt=""
               height={"200px"}
               style={{marginTop: '20px'}}
+              className="hist_img"
             />
           </div>
           <div className="history_text">
@@ -147,11 +149,11 @@ export const Aboutus = () => {
                 Our Esteemed Team
               </h1>
             </div>
-            <p className="h3">
+            <p className="h3 team-p">
               Our senior executives bring tremendous experience, visionary
               thinking and a shared commitment to
             </p>
-            <p className="h3">
+            <p className="h3 team-p mb-3" >
               excellence, creativity, and innovation to the day to day operation
               of the company.
             </p>

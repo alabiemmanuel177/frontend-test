@@ -27,11 +27,21 @@
 
 .dropdown-content{
   position: relative;
-  top: 42px !important;
+  top: 48px !important;
   color: #28da6c !important;
+  border-radius: 10px;
 
 }
 
+.about-link{
+  border-bottom: 1px solid rgb(220, 220, 220);
+  width: 90%;
+  margin-left: 5%;
+}
+.about-link1{
+  width: 90%;
+  margin-left: 5%;
+}
 .hamburger{
   display: none;
 }
