@@ -141,18 +141,12 @@
   font-weight: bold !important;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 1920px) {
   .team {
     margin-left: 25%;
     margin-right: 25%;
   }
 }
-=======
-
-  
-
->>>>>>> 817ccdf7d6c2c283b0a107415d18f23bedcf7cbb
 @media screen and (max-width: 1366px) {
   .cart2 {
     width: 60%;
@@ -229,25 +223,24 @@
   }
 }
 
-
-@media screen and (max-width:425px) {
-  .aboutus_content{
+@media screen and (max-width: 425px) {
+  .aboutus_content {
     display: flex;
     flex-direction: column;
   }
 
-  .ourvision{
+  .ourvision {
     width: 80%;
     text-align: center;
     margin-bottom: 50px;
   }
-  
-  .ourmission{
+
+  .ourmission {
     width: 80%;
     text-align: center;
   }
 
-  .history{
+  .history {
     width: 80%;
     margin-left: 10%;
   }

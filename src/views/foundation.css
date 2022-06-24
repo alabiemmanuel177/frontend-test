@@ -93,15 +93,43 @@
   height: 270px;
   width: 270px;
   background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1655638845/Ibeji%20Foundation/7-ngo-help-children-intro_bzpygv.jpg");
-  background-color: black;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   background-position: center;
-  align-items: center;
   text-align: center;
   padding: 5px;
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+.HumanRelief {
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1656066948/Ibeji%20Foundation/hanna-morris-3EkT6xb4K9w-unsplash_h9t6un.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Educa {
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1656066912/Ibeji%20Foundation/Education_shnlcx.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Health {
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1656066935/Ibeji%20Foundation/Nigeria-family-planning-2_fxmrjt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Religious {
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1656066928/Ibeji%20Foundation/EYJZ6yMWkAEeGD9_q4ravu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Empowerment {
+  background-image: url("https://res.cloudinary.com/dtddnqkn6/image/upload/v1656068157/Ibeji%20Foundation/smngoz35fr8uf63bug.0d3459fe_csyfsk.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 hr {
   color: gray;
@@ -119,7 +147,8 @@ hr {
 .sch_post h2 {
   color: white;
   font-family: "Lato";
-  font-size: 11px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .sch_post h3 {
   color: white;
@@ -128,77 +157,57 @@ hr {
   font-weight: bold;
 }
 
-
-@media screen and (max-width:1366px) {
-
-  .scheme{
+@media screen and (max-width: 1366px) {
+  .scheme {
     margin-left: 10%;
     margin-right: 10%;
   }
-  
-  
 }
 
-
-@media screen and (max-width:1024px) {
-  .scheme{
+@media screen and (max-width: 1024px) {
+  .scheme {
     margin-left: 2%;
     margin-right: 2%;
   }
-
-  
 }
 
-
-@media screen and (max-width:768px) {
-  .scheme{
+@media screen and (max-width: 768px) {
+  .scheme {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  .scheme_text{
+  .scheme_text {
     width: 100% !important;
   }
-
-
-
-  
 }
 
-
-@media screen and (max-width:425px) {
-  .scheme_post{
+@media screen and (max-width: 425px) {
+  .scheme_post {
     display: flex;
     flex-direction: column;
     margin-right: 30%;
-
   }
 
-  .sch_post{
+  .sch_post {
     margin-bottom: 20px;
   }
-
-  
-  
 }
 
-@media screen and (max-width:375px) {
-  .scheme_post{
+@media screen and (max-width: 375px) {
+  .scheme_post {
     margin-right: 35%;
   }
-  
 }
 
-@media screen and (max-width:320px) {
-  .scheme_post{
+@media screen and (max-width: 320px) {
+  .scheme_post {
     margin-right: 50%;
-
   }
 
-  p{
+  p {
     font-size: 16px !important;
   }
-  
 }
