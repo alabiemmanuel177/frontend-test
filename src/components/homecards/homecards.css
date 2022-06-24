@@ -183,22 +183,26 @@
 
 
 @media screen and (max-width:425px) {
+
+ 
   .home_aboutus{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 390px;
     justify-content: center !important;
     align-items: center !important;
-    margin-top: 200px;
+    margin-top: 100px;
+   
   }
 
   .about-img{
-    width: 400px;
+    width: 390px;
     margin-left: 12%;
+    height: 300px;
 
   }
   .home_aboutus_text{
-    width: 400px;
+    width: 390px;
   }
 
    /* .home_aboutus_image{
@@ -262,6 +266,7 @@
     justify-content: center !important;
     align-items: center !important;
     margin-top: 200px;
+   
   }
 
   .about-img{

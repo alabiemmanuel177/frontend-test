@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export const Homecards = () => {
   return (
     <div className="card-container">
+ 
       <div className="home_aboutus" data-aos="fade-down" data-aos-duration="2000">
         <div className="home_aboutus_image">
           <img
@@ -45,7 +46,7 @@ export const Homecards = () => {
       <div className="ourschemes" data-aos="fade-up">
         <h1>Our Schemes</h1>
         <div className="our_schemes">
-          <div className="ourschemes_card" data-aos="fade-right" data-aos-duration="7000">
+          <div className="ourschemes_card" >
             <img
               src="https://borgenproject.org/wp-content/uploads/23379499480_a8b69dc31e_o-705x470.jpg"
               alt=""
