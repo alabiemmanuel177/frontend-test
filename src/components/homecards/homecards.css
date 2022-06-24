@@ -124,7 +124,7 @@
     width: 400px;
   }
   .ourschemes_card{
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
   }
 
 
