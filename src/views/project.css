@@ -137,7 +137,6 @@ p.card-text{
   font-family: "Lato", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
-<<<<<<< HEAD
   
 
 
@@ -161,8 +160,7 @@ p.card-text{
 
   .fund_card{
     margin-bottom: 20px;
+    width: 80%;
   }
   
-=======
->>>>>>> 8726fa12f0fdc9630b9ea08de6e5f249ab4ab958
 }

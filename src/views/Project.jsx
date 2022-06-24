@@ -20,15 +20,12 @@ export const Project = () => {
   return (
     <div className="Project">
       <Navbar />
-<<<<<<< HEAD
-      <img src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg" alt="" width={"100%"} height={"200px"} />
-=======
       <img
         src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
         alt=""
         width={"100%"}
+        className="banner-head"
       />
->>>>>>> 8726fa12f0fdc9630b9ea08de6e5f249ab4ab958
       <div id="ourwork" className="ourwork">
         <h1 className="h1">Our Work</h1>
         <h3>
