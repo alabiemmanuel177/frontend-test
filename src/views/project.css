@@ -137,4 +137,30 @@ p.card-text{
   font-family: "Lato", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
+  
+
+
+}
+
+@media screen and (max-width:768px) {
+  .ourwork{
+    padding: 10px;
+  }
+  
+}
+
+@media screen and (max-width:425px) {
+
+  .ourwork {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .fund_card{
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
 }
