@@ -71,12 +71,12 @@
     text-decoration: none;
     font-family: "Lato", sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .abt-pos{
     position: relative;
-    top: 1px !important;
+    top: 7px !important;
   }
   
 }
