@@ -9,25 +9,33 @@ export const PostTable = ({ posts }) => {
       <div className="posts">
         <h1 className="page-head">Post Configuration</h1>
         <div className="table-holder">
-          <Add className="add-btn"/>
-        <table className="table table-bordered table-width">
-        <thead>
-          <tr>
-           
-            <th scope="col" className="table-spc">Post Header</th>
-            <th scope="col" className="table-spc">Post Summary</th>
-            <th scope="col" className="table-spc">Post Image </th>
-            <th scope="col" className="table-spc">Beneficiary</th>
-            <th scope="col" className="table-spc">Controls</th>
-          </tr>
-        </thead>
-        </table>
-       
-        {posts.map((p) => (
-          <Table post={p} 
-          />
-        ))}
-         </div>
+          <Add className="add-btn" />
+          <table className="table table-bordered table-width">
+            <thead>
+              <tr>
+                <th scope="col" className="table-spc">
+                  Post Header
+                </th>
+                <th scope="col" className="table-spc">
+                  Post Summary
+                </th>
+                <th scope="col" className="table-spc">
+                  Post Image{" "}
+                </th>
+                <th scope="col" className="table-spc">
+                  Beneficiary
+                </th>
+                <th scope="col" className="table-spc">
+                  Controls
+                </th>
+              </tr>
+            </thead>
+          </table>
+
+          {posts.map((p) => (
+            <Table post={p} />
+          ))}
+        </div>
       </div>
     </div>
   );
