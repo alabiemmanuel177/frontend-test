@@ -23,3 +23,7 @@ td{
     margin-bottom: 0 !important;
     margin-left: 5%;
 }
+.image-spc{
+    display: flex;
+    flex-direction: row !important;
+}

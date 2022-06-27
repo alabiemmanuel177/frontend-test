@@ -1,6 +1,7 @@
 import React from "react";
 import "./table.css";
 import FullBtn from "../SvgFunc/FullBtn";
+import ImgDelete from "../SvgFunc/ImgDelete";
 
 export const Table = ({ post }) => {
   return (
@@ -10,7 +11,7 @@ export const Table = ({ post }) => {
           <tr className="wrap">
             <td className="table-spc">{post.title}</td>
             <td className="table-spc">{post.desc}</td>
-            <td className="table-spc">Farm.jpg</td>
+            <td className="table-spc ">  <ImgDelete/></td>
             <td className="table-spc">{post.beneficiary}</td>
             <td className="table-spc">
               <FullBtn

@@ -14,13 +14,13 @@ export const PostTable = ({ posts }) => {
             <thead>
               <tr>
                 <th scope="col" className="table-spc">
-                  Post Header
+                  Title
                 </th>
                 <th scope="col" className="table-spc">
-                  Post Summary
+                   Summary
                 </th>
                 <th scope="col" className="table-spc">
-                  Post Image{" "}
+                  Image{" "}
                 </th>
                 <th scope="col" className="table-spc">
                   Beneficiary

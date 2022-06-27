@@ -87,3 +87,12 @@ form {
   top: 0;
   opacity: 0;
 }
+
+.imgdel_holder{
+  display: flex;
+  flex-direction: row;
+}
+
+.img_name{
+  margin-right: 20px;
+}
