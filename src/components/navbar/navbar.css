@@ -59,9 +59,9 @@
     margin-left: 13% ;
   }
 
-  .dropdown-content {
-    /* display: none; */
-  }
+  /* .dropdown-content {
+    display: none;
+  } */
 }
 
 @media screen and (max-width:834px) {
@@ -76,7 +76,7 @@
 
   .abt-pos{
     position: relative;
-    top: 7px !important;
+    top: 50px !important;
   }
   
 }

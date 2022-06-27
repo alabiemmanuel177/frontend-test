@@ -28,3 +28,62 @@
 form {
   z-index: 1 !important;
 }
+
+.edit_img{
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
+.profile_edit{
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.img_edit{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid white;
+  
+  
+}
+
+.user_icon{
+  /* height: 150px !important; */
+  /* width: 200px; */
+  font-size: 100px;
+
+}
+
+.mv{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 7%;
+  width: 50%;
+}
+
+.save-btn{
+  background-color:#4caf50 !important;
+  color: white !important;
+  margin-top: 20px;
+
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

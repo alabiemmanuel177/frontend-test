@@ -4,7 +4,7 @@ import PostTable from "../components/PostTable/PostTable";
 import { Applicantstable } from "../components/ApplicantsTable/Applicantstable";
 import { useState, useEffect } from "react";
 import config from "../config";
-
+import AdminImg from "../components/SvgFunc/AdminImg";
 import { ContactTable } from "../components/ContactTable/ContactTable";
 import { BsPeople } from "react-icons/bs";
 import { AiOutlineTable, AiOutlineContacts } from "react-icons/ai";
@@ -58,7 +58,8 @@ export const Admin = () => {
           <div className="sidebar1">
             <div className="user1">
               <h4>Ibeji Foundation</h4>
-              <img src="images/icon.png" className="user-icon" alt="icon" />
+              {/* <img src="images/icon.png" className="user-icon" alt="icon" /> */}
+              <AdminImg/>
               <div className="dropdown">
                 <div className="logout-dropdown">
                   <p>

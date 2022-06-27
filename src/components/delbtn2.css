@@ -3,8 +3,9 @@
 }
 
 .password-btn{
+    background-color: rgb(249, 247, 247);
     border: 1px solid white;
-    background-color: white;
+    width: 100%;
     padding:10px ;
     color: rgb(85, 85, 85);
 }

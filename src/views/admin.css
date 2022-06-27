@@ -79,16 +79,19 @@ hr{
 
 
 
- .o-icon{
-   position: relative;
-   top: -3px;
- }
+
 
 
   */
 
   .txt-area{
     width: 100%;
+}
+
+
+.o-icon{
+  position: relative;
+  top: -4px;
 }
 
 .page-head{
@@ -105,6 +108,7 @@ hr{
 
 .sidebar{
     width: 20%;
+   
 }
 
 .table{
@@ -189,20 +193,28 @@ hr{
   
 .sidebar1{
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    box-shadow: 3px 3px 6px -3px rgba(61, 61, 61, 0.7); 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-top: 10px;
     padding: 10px;
+    overflow-x: hidden;
+    height: 90vh;
+    position: fixed; 
+    width: 250px;
+    z-index: 1;
+    margin-left: 1% !important;
+    margin-top: 3%;
+    border-radius: 20px;
+    
 }
 
 .user1{
     display: flex;
     flex-direction: column;
     align-items: center;  
+    margin-top: 70px;
 }
 
 .user-icon{
@@ -247,3 +259,5 @@ hr{
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+  

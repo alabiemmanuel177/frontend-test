@@ -72,6 +72,9 @@ export const Navbar = () => {
             <Link to="/project" className="Nlink">
               <a>Project</a>
             </Link>
+            <Link to="/project" className="Nlink">
+              <a>Donate</a>
+            </Link>
           </div>
         </div>
       </div>

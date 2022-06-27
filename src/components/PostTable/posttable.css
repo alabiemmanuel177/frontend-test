@@ -11,6 +11,7 @@
   border-radius: 5px;
   border-bottom: 30px solid white;
   z-index: 0;
+  background-color: whitesmoke;
 }
 .add-btn {
   width: 200px;
@@ -22,6 +23,7 @@
   right: 25px;
   width: 1000px !important;
   margin-bottom: 30px !important;
+  background-color: white;
 }
 
 .table-holder{
@@ -43,6 +45,10 @@
     padding: 10px;
     
    
+}
+
+.page-head{
+  margin-left: 20px;
 }
 
 

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import axios from "axios";
 import config from "../../config";
+import ImageUploadPreviewComponent from '../SvgFunc/ImageUp'
 
 const Add = () => {
 
@@ -65,7 +66,7 @@ const Add = () => {
               onChange={(e) => setBeneficiary(e.target.value)}
             ></input>
           </div>
-          <div className="form-row">
+          {/* <div className="form-row">
             <div className="input-group mb-3 mt-2">
               <div className="custom-file">
                 <label>Post Image</label>
@@ -77,7 +78,8 @@ const Add = () => {
                 ></input>
               </div>
             </div>
-          </div>
+          </div> */}
+          <ImageUploadPreviewComponent/> 
           <button
             type="submit"
             onClick={handleSubmit}

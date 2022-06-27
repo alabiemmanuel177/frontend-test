@@ -60,7 +60,7 @@ export const Footer = () => {
           FirstName: "",
           LastName: "",
           Email: "",
-          PhoneNo: "",
+          Phone: "",
           Message: "",
         }}
         validationSchema={validate2}
@@ -99,8 +99,8 @@ export const Footer = () => {
               </div>
               <div className="col-md-6">
                 <TextField
-                  label="Phone No"
-                  name="PhoneNo"
+                  label="PhoneNo"
+                  name="Phone"
                   type="number"
                   onChange={(e) => setPhoneno(e.target.value)}
                 />
