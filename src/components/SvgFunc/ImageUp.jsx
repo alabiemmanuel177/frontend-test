@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./fullbtn.css"
  
 class ImageUploadPreviewComponent extends Component {
  
@@ -29,11 +30,12 @@ class ImageUploadPreviewComponent extends Component {
  
     render() {
         return (
+            <div className='upload_row'>
             <form>
                 <div className="form-group multi-preview">
-                    {(this.fileArray || []).map(url => (
+                    {/* {(this.fileArray || []).map(url => (
                         <img src={url} alt="..." />
-                    ))}
+                    ))} */}
                 </div>
  
                 <div className="form-group mt-4">
@@ -41,6 +43,10 @@ class ImageUploadPreviewComponent extends Component {
                 </div>
               
             </form >
+            <div>
+            <button type="button" className="btn btn-danger btn-block mt-4 upload_btn" onClick={this.uploadFiles}>Upload</button>
+            </div>
+            </div>
         )
     }
 }
