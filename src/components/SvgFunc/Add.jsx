@@ -4,15 +4,35 @@ import { useState } from "react";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import axios from "axios";
 import config from "../../config";
-import ImageUploadPreviewComponent from '../SvgFunc/ImageUp'
+// import ImageUploadPreviewComponent from "../SvgFunc/ImageUp";
+import "./fullbtn.css";
 
 const Add = () => {
-
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [beneficiary, setBeneficiary] = useState("");
   const [error, setError] = useState(false);
+  const [multipleFiles, setMultipleFiles] = useState("");
 
+  const MultipleFileChange = (e) => {
+    setMultipleFiles(e.target.files);
+  };
+  const UploadMultipleFiles = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    for (let i = 0; i < multipleFiles.length; i++) {
+      formData.append("files", multipleFiles[i]);
+    }
+    console.log(formData);
+    try {
+      const res = await axios.post(`${config.baseURL}/upload-images`, {
+        data: formData,
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+    } catch (err) {
+      console.log(error)
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,13 +41,14 @@ const Add = () => {
       const res = await axios.post(`${config.baseURL}/posts`, {
         title,
         desc,
-        beneficiary,        
+        beneficiary,
       });
       res.data && window.location.reload("/");
     } catch (err) {
       setError(true);
     }
   };
+
   const [buttonPopup3, sBtn3] = useState(false);
   return (
     <div className="add-btn">
@@ -66,20 +87,28 @@ const Add = () => {
               onChange={(e) => setBeneficiary(e.target.value)}
             ></input>
           </div>
-          {/* <div className="form-row">
-            <div className="input-group mb-3 mt-2">
-              <div className="custom-file">
-                <label>Post Image</label>
-                <br></br>
-                <input
-                  type="file"
-                  className="custom-file-input"
-                  id="inputGroupFile01"
-                ></input>
-              </div>
+          {/* <ImageUploadPreviewComponent /> */}
+          <form>
+            <div className="form-group multi-preview"></div>
+
+            <div className="form-group mt-4">
+              <input
+                type="file"
+                className="form-control"
+                onChange={(e) => MultipleFileChange(e)}
+                multiple
+              />
             </div>
-          </div> */}
-          <ImageUploadPreviewComponent/> 
+          </form>
+          <div>
+            <button
+              type="submit"
+              className="btn btn-danger btn-block mt-4 upload_btn"
+              onClick={(e) => UploadMultipleFiles(e)}
+            >
+              Upload
+            </button>
+          </div>
           <button
             type="submit"
             onClick={handleSubmit}
