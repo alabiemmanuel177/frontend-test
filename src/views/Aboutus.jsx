@@ -145,17 +145,22 @@ export const Aboutus = () => {
          <div className="ourfounder">
            <div className="founder-holder">
            <div className="text-holder">
-            <div className="split ">
+           
               <div className="head-color1">
              <h2 className="founder_spc">About Our Founder</h2> 
              </div>
-           <p>Alhaji R.A Ebiti is a graduate of Obafemi Awolowo University in Ife, Osun State of Nigeria. 
+             <div className="img-holder">
+              <img src="/images/founder2.jpg" width="400px" alt="" className="responsive2 display_img" />
+            </div>
+             <div className="text_hold_2">
+           <p className="ssss">Alhaji R.A Ebiti is a graduate of Obafemi Awolowo University in Ife, Osun State of Nigeria. 
             He is a fellow of the prestigious Institute of Chartered Accountant of Nigeria (ICAN). 
-            He is a seasoned Accountant/Administrator and entrepreneur per excellent.</p>
+            He is a seasoned Accountant and entrepreneur per excellent.</p>
             <p> He started his professional 
             career with an international renowned firm of chartered accountants KPMG where he handle large and medium
              sized audit of companies in different sector of the economy.Alhaji Rafiu Ebiti; he is Chairman of the Foundation ;  He is a devoted Muslim and a distinguished Business man;
               A great Philanthropist and Humanitarian.</p>
+              </div>
              <div className="x_holder ">
              <div className="x founder_font " data-aos="flip-left"><div className="mb-3"><img src="/images/suitcase.png" height="50px" alt="" /></div>
              <p className=""> Alhaji Rafiu Adisa Ebiti is currently the Pro-chancellor/ Chairman, 
@@ -175,11 +180,11 @@ export const Aboutus = () => {
               </p>
             
 </div>
-             </div>
+          
              </div>
            </div>
             <div className="img-holder">
-              <img src="/images/founder2.jpg" width="400px" alt="" />
+              <img src="/images/founder2.jpg" width="400px" alt="" className="responsive1 display_img2" />
             </div>
             
            </div>
