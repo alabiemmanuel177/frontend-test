@@ -4,47 +4,74 @@ import { useState } from "react";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import axios from "axios";
 import config from "../../config";
-// import ImageUploadPreviewComponent from "../SvgFunc/ImageUp";
 import "./fullbtn.css";
+import {CircularProgressbar, buildStyles} from 'react-circular-progressbar'
+import 'react-circular-progressbar/dist/styles.css'
 
 const Add = () => {
+ // let appPhotos = null;
+  const [appPhotos, setPhotos] = useState(null)
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [beneficiary, setBeneficiary] = useState("");
   const [error, setError] = useState(false);
-  const [multipleFiles, setMultipleFiles] = useState("");
+  const [multipleFiles, setMultipleFiles] = useState([]);
+  const [multipleProgress, setMultipleProgress] = useState(0);
+  
 
   const MultipleFileChange = (e) => {
     setMultipleFiles(e.target.files);
   };
+  const multipleFileOptions = {
+    onUploadProgress: (progressEvent) =>{
+      const {loaded, total} = progressEvent;
+      const percentage = Math.floor(((loaded / 1000) * 100) / (total / 1000));
+      setMultipleProgress(percentage)
+    }
+  }
   const UploadMultipleFiles = async (e) => {
     e.preventDefault();
     const formData = new FormData();
-    for (let i = 0; i < multipleFiles.length; i++) {
-      formData.append("files", multipleFiles[i]);
+    for (let file of multipleFiles) {
+      formData.append("image", file);
     }
-    console.log(formData);
+    // console.log(formData);
     try {
-      const res = await axios.post(`${config.baseURL}/upload-images`, {
-        data: formData,
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+      const res = await axios.post(
+        `${config.baseURL}/api/upload-images`,
+        formData, multipleFileOptions
+      );
+      const { data } = res.data;
+      setPhotos(data);
     } catch (err) {
-      console.log(error)
+      console.log(error);
     }
   };
-
+  /**
+   * Sets the state of the app photos
+   */
+  // const setPhotos = (photos) => {
+  //   appPhotos = photos;
+  // };
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(false);
+
     try {
-      const res = await axios.post(`${config.baseURL}/posts`, {
+
+      console.log(appPhotos)
+      if(!appPhotos){
+        throw new Error("Upload photo");
+      }
+      const res = await axios.post(`${config.baseURL}/api/posts`, {
         title,
         desc,
         beneficiary,
+        photos: appPhotos,
       });
       res.data && window.location.reload("/");
     } catch (err) {
+      console.log(err)
       setError(true);
     }
   };
@@ -108,6 +135,22 @@ const Add = () => {
             >
               Upload
             </button>
+            <div className="col-2">
+              <CircularProgressbar
+              value={multipleProgress}
+              text={`${multipleProgress}%`}
+              styles={buildStyles({
+                rotation: 0.25,
+                strokeLinecap: 'butt',
+                textSize: '16px',
+                pathTransitionDuration: 0.5,
+                pathColor: `rgba(255, 136, 136, ${multipleProgress / 100})`,
+                textColor: "#f88",
+                trailColor: '#d6d6d6',
+                backgroundColor: '#3e98c7',
+              })}
+              />
+            </div>
           </div>
           <button
             type="submit"

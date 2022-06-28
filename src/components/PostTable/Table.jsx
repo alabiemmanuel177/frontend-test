@@ -11,13 +11,14 @@ export const Table = ({ post }) => {
           <tr className="wrap">
             <td className="table-spc">{post.title}</td>
             <td className="table-spc">{post.desc}</td>
-            <td className="table-spc ">  <ImgDelete/></td>
+            <td className="table-spc ">
+              {post.photos.map((p) => (
+                <ImgDelete post_path={post._id} image={p} />
+              ))}{" "}
+            </td>
             <td className="table-spc">{post.beneficiary}</td>
             <td className="table-spc">
-              <FullBtn
-                path={post._id}
-                post={post}                
-              />
+              <FullBtn path={post._id} post={post} />
             </td>
           </tr>
         </tbody>

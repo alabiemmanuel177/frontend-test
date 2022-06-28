@@ -68,7 +68,7 @@ export const Admin = () => {
                   </p>
                 </div>
                 <div className="dropdown-content">
-                  <a href={() => false} onClick={handleLogout}>
+                  <a  onClick={handleLogout}>
                     {user && "Logout"}
                   </a>
                   <PasswordChange id={user._id} />
@@ -79,13 +79,13 @@ export const Admin = () => {
             <div className="options">
               <p className="option">
                 <BsPeople className="o-icon" />
-                <a href={() => false} onClick={() => setActive("FirstTable")}>
+                <a  onClick={() => setActive("FirstTable")}>
                   Posts
                 </a>
               </p>
               <p className="option">
                 <AiOutlineTable className="o-icon" />
-                <a href={() => false} onClick={() => setActive("SecondTable")}>
+                <a  onClick={() => setActive("SecondTable")}>
                   Applicants
                 </a>
               </p>

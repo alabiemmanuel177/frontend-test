@@ -11,7 +11,7 @@ export const Project = () => {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const res = await axios.get(`${config.baseURL}/posts`);
+      const res = await axios.get(`${config.baseURL}/api/posts`);
       setPosts(res.data);
     };
     fetchPosts();

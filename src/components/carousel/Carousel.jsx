@@ -2,7 +2,8 @@ import React from 'react'
 import "./carousel.css"
 
 
-export const Carousel = () => {
+export const Carousel = (photos) => {
+    console.log(photos);
   return (
     <div className="carousel-cont">
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
