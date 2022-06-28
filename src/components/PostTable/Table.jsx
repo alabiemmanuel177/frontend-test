@@ -11,7 +11,9 @@ export const Table = ({ post }) => {
           <tr className="wrap">
             <td className="table-spc">{post.title}</td>
             <td className="table-spc">{post.desc}</td>
-            <td className="table-spc ">  <ImgDelete/></td>
+            <td className="table-spc ">
+              <ImgDelete/>
+              </td>
             <td className="table-spc">{post.beneficiary}</td>
             <td className="table-spc">
               <FullBtn
@@ -22,6 +24,8 @@ export const Table = ({ post }) => {
           </tr>
         </tbody>
       </table>
+      
     </div>
+    
   );
 };

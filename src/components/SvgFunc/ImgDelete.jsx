@@ -20,18 +20,28 @@ const ImgDelete = () => {
     
   return (
     <div className='imgdel_holder'>
+      <table className='table-bordered'>
+        <tbody>
+        <tr >
+          <td className='td3'>
         <div className='img_name'>
          Table.jpg
          </div>
-   <button
+         </td>
+         <td className='td2'>
+   <button 
           onClick={() => {
             sBtn(true);
           }}
-          className="spc2"
+          className="spc2 tttt"
         >
            
           <Svg2></Svg2>
         </button>
+        </td>
+        </tr>
+        </tbody>
+        </table>
         <Popup2 trigger={buttonPopup1} setTrigger={sBtn}>
           <h3>Are you sure you want to delete this Image</h3>
           <button type="submit" className="btn del-btn" onClick={handleDelete}>

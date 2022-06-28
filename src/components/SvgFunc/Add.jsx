@@ -88,10 +88,11 @@ const Add = () => {
             ></input>
           </div>
           {/* <ImageUploadPreviewComponent /> */}
+          <div className="ddd">
           <form>
-            <div className="form-group multi-preview"></div>
+            <div className="form-group multi-preview "></div>
 
-            <div className="form-group mt-4">
+            <div className="form-group mt-4 upload_btn2">
               <input
                 type="file"
                 className="form-control"
@@ -108,6 +109,7 @@ const Add = () => {
             >
               Upload
             </button>
+          </div>
           </div>
           <button
             type="submit"
