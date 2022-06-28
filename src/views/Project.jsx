@@ -21,7 +21,7 @@ export const Project = () => {
     <div className="Project">
       <Navbar />
       <img
-        src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
+        src="https://res.cloudinary.com/manlikeemma/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
         alt=""
         width={"100%"}
         className="banner-head"
@@ -39,7 +39,7 @@ export const Project = () => {
           <div className="fund_card">
             <div className="image_card">
               <img
-                src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1656066935/Ibeji%20Foundation/Nigeria-family-planning-2_fxmrjt.jpg"
+                src="https://res.cloudinary.com/manlikeemma/image/upload/v1656066935/Ibeji%20Foundation/Nigeria-family-planning-2_fxmrjt.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -58,7 +58,7 @@ export const Project = () => {
           <div className="fund_card">
             <div className="image_card">
             <img
-                src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1656066924/Ibeji%20Foundation/generations-for-peace-ngo-empowerment-women-girls-2014-nigeria-donation-gfp_vpr98v.jpg"
+                src="https://res.cloudinary.com/manlikeemma/image/upload/v1656066924/Ibeji%20Foundation/generations-for-peace-ngo-empowerment-women-girls-2014-nigeria-donation-gfp_vpr98v.jpg"
                 className="card-img-top"
                 alt="..."
                 height={"265.22px"}
@@ -78,7 +78,7 @@ export const Project = () => {
           <div className="fund_card">
             <div className="image_card">
               <img
-                src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1656074499/Ibeji%20Foundation/YEA-1_m6tmds.jpg"
+                src="https://res.cloudinary.com/manlikeemma/image/upload/v1656074499/Ibeji%20Foundation/YEA-1_m6tmds.jpg"
                 className="card-img-top"
                 alt="..."
                 height={"265.22px"}
@@ -117,7 +117,7 @@ export const Project = () => {
           <div className="fund_card">
             <div className="image_card">
               <img
-                src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1656074305/Ibeji%20Foundation/Nigerian-Muslims_fewztr.jpg"
+                src="https://res.cloudinary.com/manlikeemma/image/upload/v1656074305/Ibeji%20Foundation/Nigerian-Muslims_fewztr.jpg"
                 className="card-img-top"
                 alt="..."
               />

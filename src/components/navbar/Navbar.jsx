@@ -39,7 +39,7 @@ export const Navbar = () => {
       <div className="logo">
         <Link to="/">
           <img
-            src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
+            src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
             className="logo-size"
             alt=""
           />

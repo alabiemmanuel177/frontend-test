@@ -126,7 +126,7 @@ export const Footer = () => {
       <div className="fold">
       <div className="footer-links">
         <div className="footer-logo">
-          <img src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" className="ibeji-logo" height={"150px"} alt="" />
+          <img src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" className="ibeji-logo" height={"150px"} alt="" />
         </div>
         <div className="footer-socials">
           <img src="icons/facebook.png" alt="" />

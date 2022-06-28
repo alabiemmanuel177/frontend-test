@@ -10,7 +10,7 @@ export const Aboutus = () => {
       <Navbar />
       <div>
         <img
-          src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
+          src="https://res.cloudinary.com/manlikeemma/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
           alt=""
           width={"100%"}
           className="banner-head"
@@ -26,7 +26,7 @@ export const Aboutus = () => {
         <div className="history">
           <div className="history_image">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
               alt=""
               height={"200px"}
               style={{marginTop: '20px'}}
@@ -65,7 +65,7 @@ export const Aboutus = () => {
         <div className="aboutus_content">
           <div className="ourvision">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655994514/Ibeji%20Foundation/vision_xti82k.png"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655994514/Ibeji%20Foundation/vision_xti82k.png"
               alt=""
               width={"150px"}
               height={"150px"}
@@ -98,7 +98,7 @@ export const Aboutus = () => {
             </svg>
 
             {/* <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655994956/Ibeji%20Foundation/goal-svgrepo-com_ko50eg.svg"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655994956/Ibeji%20Foundation/goal-svgrepo-com_ko50eg.svg"
               alt=""
               width={"150px"}
               height={"150px"}
@@ -116,7 +116,7 @@ export const Aboutus = () => {
         {/* <div className="image-holder">
           <div className="founder-img">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655558183/Ibeji%20Foundation/MENA.max-1500x500_geuz5c.jpg"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655558183/Ibeji%20Foundation/MENA.max-1500x500_geuz5c.jpg"
               width="100%"
               height=""
               alt=""

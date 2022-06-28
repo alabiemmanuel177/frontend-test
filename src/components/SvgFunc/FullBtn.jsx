@@ -19,7 +19,7 @@ function FullBtn({ path }) {
 
   useEffect(() => {
     const getPost = async () => {
-      const res = await axios.get(`${config.baseURL}/posts/${path}`);
+      const res = await axios.get(`${config.baseURL}/api/posts/${path}`);
       setPost(res.data);
       setTitle(res.data.title);
       setDesc(res.data.desc);
@@ -31,13 +31,13 @@ function FullBtn({ path }) {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`${config.baseURL}/posts/${path}`);
+      await axios.delete(`${config.baseURL}/api/posts/${path}`);
       window.location.replace("/admin");
     } catch (err) {}
   };
   const handleUpdate = async () => {
     try {
-      axios.put(`${config.baseURL}/posts/${post._id}`,{
+      axios.put(`${config.baseURL}/api/posts/${post._id}`,{
         title,
         desc,
         beneficiary

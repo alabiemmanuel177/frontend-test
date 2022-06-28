@@ -11,14 +11,14 @@ export const Sponsor = () => {
         <div className="sponsor-card-images" data-aos="fade-right">
           <div className="image">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879249/Ibeji%20Foundation/Markaz_vgxsgn.jpg"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655879249/Ibeji%20Foundation/Markaz_vgxsgn.jpg"
               alt=""
               height={"150px"}
             />
           </div>
           <div className="image" data-aos="fade-right">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879470/Ibeji%20Foundation/nasfat_dkv93x.png"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655879470/Ibeji%20Foundation/nasfat_dkv93x.png"
               alt=""
               height={"100px"}
             />
@@ -33,7 +33,7 @@ export const Sponsor = () => {
           </div>
           <div className="image" data-aos="fade-right">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655916348/Ibeji%20Foundation/download_lpbuxi.jpg"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655916348/Ibeji%20Foundation/download_lpbuxi.jpg"
               alt=""
               width={"130px"}
               height={"130x"}
@@ -41,7 +41,7 @@ export const Sponsor = () => {
           </div>
           <div className="image" data-aos="fade-right">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879473/Ibeji%20Foundation/unifemga_fyaqtv.jpg"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655879473/Ibeji%20Foundation/unifemga_fyaqtv.jpg"
               height={"150px"}
               alt=""
             />
@@ -49,12 +49,12 @@ export const Sponsor = () => {
           <div className="image" data-aos="fade-right">
             <img
               alt=""
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879682/Ibeji%20Foundation/js_uyrapl.png"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655879682/Ibeji%20Foundation/js_uyrapl.png"
             />
           </div>
           <div className="image" data-aos="fade-right">
             <img
-              src="https://res.cloudinary.com/dtddnqkn6/image/upload/v1655879469/Ibeji%20Foundation/Fomwan_fopppm.jpg"
+              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655879469/Ibeji%20Foundation/Fomwan_fopppm.jpg"
               alt=""
               height={"150px"}
             />

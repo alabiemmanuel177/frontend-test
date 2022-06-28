@@ -18,7 +18,7 @@ export const Admin = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     const fetchPosts = async () => {
-      const res = await axios.get(`${config.baseURL}/posts`);
+      const res = await axios.get(`${config.baseURL}/api/posts`);
       setPosts(res.data);
     };
     fetchPosts();
@@ -32,7 +32,7 @@ export const Admin = () => {
   const [applicants, setApplicants] = useState([]);
   useEffect(() => {
     const fetchApplicants = async () => {
-      const res = await axios.get(`${config.baseURL}/applicants`);
+      const res = await axios.get(`${config.baseURL}/api/applicants`);
       setApplicants(res.data);
     };
     fetchApplicants();
@@ -41,7 +41,7 @@ export const Admin = () => {
   const [contacts, setContacts] = useState([]);
   useEffect(() => {
     const fetchContacts = async () => {
-      const res = await axios.get(`${config.baseURL}/contacts`);
+      const res = await axios.get(`${config.baseURL}/api/contacts`);
       setContacts(res.data);
     };
     fetchContacts();
