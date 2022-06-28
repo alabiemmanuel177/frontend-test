@@ -81,13 +81,22 @@
   padding: 10px;
   margin-bottom: 20px;
 }
+
+.red1 {
+  margin: auto;
+  width: 50%;
+  border-bottom: 3px solid #000487;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 .text-arr {
   line-height: 0.5;
   margin-top: 20px;
   margin-bottom: 50px;
 }
 .team-name {
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }
 .history {
   margin-left: 15%;
@@ -154,8 +163,8 @@
   }
 
   .team {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -226,6 +235,32 @@
   }
 }
 
+.ourfounder{
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.founder-holder{
+  display: flex;
+  flex-direction: row;
+}
+
+.text-holder{
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.img-holder{
+  width: 30%;
+  margin-left: 10%;
+}
+
+.sttt{
+  color: #28da6c;
+}
+
 @media screen and (max-width: 375px) {
   .cart {
     width: 0% !important;
@@ -286,4 +321,55 @@
     width: 80%;
     margin-left: 10%;
   }
+}
+
+.board-members{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  text-align: center;
+  font-size: 15px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.board-holder{
+  background-color: white;
+}
+
+.x_holder{
+  display: flex;
+  flex-direction: row;
+}
+
+.x{
+  width: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+
+}
+
+.y{
+  width: 50%;
+  margin-left: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+}
+
+.founder_font{
+  text-align: center;
+}
+
+.head-color1{
+  color: #28da6c;
+  border-left: 4px solid #000487;
+}
+
+.founder_spc{
+  margin-left: 10px;
+}
+
+.x_holder{
+  margin-top: 50px;
 }

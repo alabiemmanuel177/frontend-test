@@ -106,3 +106,23 @@ form {
   margin-left: 10%;
   width: 215px;
 }
+
+.td2{
+  width: 100px !important;
+}
+.td3{
+  width: 350px !important;
+}
+
+.tttt{
+  width: 100% !important;
+}
+
+.upload_btn2{
+  width: 100% !important;
+}
+
+.ddd{
+  display: flex;
+  flex-direction: row;
+}

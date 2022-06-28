@@ -19,22 +19,35 @@ const ImgDelete = (image, post_path) => {
     } catch (err) {}
   };
   return (
-    <div className="imgdel_holder">
-      <div className="img_name">{image.image.fileName}</div>
-      <button
-        onClick={() => {
-          sBtn(true);
-        }}
-        className="spc2"
-      >
-        <Svg2></Svg2>
-      </button>
-      <Popup2 trigger={buttonPopup1} setTrigger={sBtn}>
-        <h3>Are you sure you want to delete this Image</h3>
-        <button type="submit" className="btn del-btn" onClick={handleDelete}>
-          Delete
+    <div className='imgdel_holder'>
+      <table className='table-bordered'>
+        <tbody>
+        <tr >
+          <td className='td3'>
+        <div className='img_name'>
+        {image.image.fileName}         </div>
+         </td>
+         <td className='td2'>
+   <button 
+          onClick={() => {
+            sBtn(true);
+          }}
+          className="spc2 tttt"
+        >
+           
+          <Svg2></Svg2>
         </button>
-      </Popup2>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <Popup2 trigger={buttonPopup1} setTrigger={sBtn}>
+          <h3>Are you sure you want to delete this Image</h3>
+          <button type="submit" className="btn del-btn" onClick={handleDelete}>
+            Delete
+          </button>
+        </Popup2>
+
     </div>
   );
 };

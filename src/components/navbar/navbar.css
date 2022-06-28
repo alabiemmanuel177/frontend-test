@@ -236,8 +236,8 @@
 .donate-btn2 {
   background-color:#f9f9f9;
   border: 1px solid #f9f9f9;
-  color: rgb(109, 109, 109);
-  margin-left: 5px;
+  color: rgb(85, 85, 85) !important;
+  margin-left: 0px;
   margin-right: 50px;
   border-radius: 2px;
 }

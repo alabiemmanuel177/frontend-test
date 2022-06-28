@@ -23,6 +23,8 @@ export const Table = ({ post }) => {
           </tr>
         </tbody>
       </table>
+      
     </div>
+    
   );
 };
