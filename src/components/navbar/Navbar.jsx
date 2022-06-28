@@ -101,9 +101,16 @@ export const Navbar = () => {
             <Link to="/project" className="Nlink">
               <a>Project</a>
             </Link>
-            <Link to="/project" className="Nlink">
-              <a>Donate</a>
-            </Link>
+            <button
+          type="button"
+          className="donate-btn donate-btn2 "
+          onClick={() => {
+            initializePayment(onSuccess, onClose);
+          }}
+        >
+          Donate
+        </button>
+
           </div>
         </div>
       </div>
