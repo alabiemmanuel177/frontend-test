@@ -1,12 +1,13 @@
 import React from "react";
 import { Carousel } from "../carousel/Carousel";
 import "./post.css";
-export const Post = ({ post }) => {
+export const Post =  ({ post , index }) => {
+  console.log({post})
   return (
     <div className="miniproject">
-      {post.photos.map((p) => (
-        <Carousel photos={p} />
-      ))}
+
+        <Carousel photos={post?.photos} index={index} />
+
 
       <div className="miniproject-text">
         <h1>{post.title}</h1>

@@ -69,7 +69,7 @@ const Add = () => {
         beneficiary,
         photos: appPhotos,
       });
-      res.data && window.location.reload("/");
+      res.data && window.location.reload();
     } catch (err) {
       console.log(err)
       setError(true);
