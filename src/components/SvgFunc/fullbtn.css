@@ -112,6 +112,7 @@ form {
 }
 .td3{
   width: 350px !important;
+  overflow: auto !important; 
 }
 
 .tttt{
@@ -126,3 +127,4 @@ form {
   display: flex;
   flex-direction: row;
 }
+

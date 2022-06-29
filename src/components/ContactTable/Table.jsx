@@ -6,16 +6,7 @@ export const Table = ({contact}) => {
   return (
     <div className="table-holder1">
       <table className="table table-bordered table-width fixed">
-        <thead>
-          <tr>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone No</th>
-            <th scope="col">Message</th>
-            <th scope="col">Control</th>
-          </tr>
-        </thead>
+      
         <tbody>
           <tr className="wrap">
             <td className="hold1">{contact.firstName}</td>

@@ -11,12 +11,12 @@ export const DelBtn = ({ path, keys }) => {
   const handleDelete = async () => {
     if (keys === "applicant") {
       try {
-        await axios.delete(`${config.baseURL}/applicants/${path}`);
+        await axios.delete(`${config.baseURL}/api/applicants/${path}`);
         window.location.replace("/admin");
       } catch (err) {}
     } else if (keys === "contact") {
       try {
-        await axios.delete(`${config.baseURL}/contacts/${path}`);
+        await axios.delete(`${config.baseURL}/api/contacts/${path}`);
         window.location.replace("/admin");
       } catch (err) {}
     }

@@ -1,7 +1,14 @@
 .hold1{
-    width: 180px !important;
+    width: 160px !important;
     overflow: auto !important; 
     height: 100px !important;
+
+}
+
+.hold2{
+    width: 160px !important;
+    overflow: auto !important; 
+   
 
 }
 
@@ -10,5 +17,16 @@
     right: 70px !important;
     
 }
+
+.mv3{
+    position: relative;
+    right: 95px;
+}
+
+.post1{
+    position: relative;
+    left: 70px;
+}
+
 
 
