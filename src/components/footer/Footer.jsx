@@ -20,7 +20,7 @@ export const Footer = () => {
     e.preventDefault();
     setError(false);
     try {
-      const res = await axios.post(`${config.baseURL}/contacts`, {
+      const res = await axios.post(`${config.baseURL}/api/contacts`, {
         firstName,
         lastName,
         emailaddress,
