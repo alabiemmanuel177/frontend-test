@@ -7,8 +7,10 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 export const Aboutus = () => {
   return (
     <div className="aboutus_div">
+      {/* navbar component */}
       <Navbar />
       <div>
+        {/* banner  */}
         <img
           src="https://res.cloudinary.com/manlikeemma/image/upload/v1655970864/Ibeji%20Foundation/bgOW_hfbzvj.jpg"
           alt=""
@@ -16,6 +18,7 @@ export const Aboutus = () => {
           className="banner-head"
           
         />
+        {/* banner ends */}
         <div id="ourwork" className="ourwork">
           <h1 className="h1">About Us</h1>
           <h3>
@@ -23,8 +26,10 @@ export const Aboutus = () => {
             long term
           </h3>
         </div>
+        {/* our history container */}
         <div className="history">
           <div className="history_image">
+            {/* ibeji logo */}
             <img
               src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
               alt=""
@@ -34,6 +39,7 @@ export const Aboutus = () => {
             />
           </div>
           <div className="history_text">
+            {/* our history text*/}
             <h1 style={{ marginBottom: "50px" }} className="h1">
               OUR HISTORY
             </h1>
@@ -62,8 +68,13 @@ export const Aboutus = () => {
             </h3>
           </div>
         </div>
+        {/* End of our history container */}
+
+        {/* our vision and mission container */}
         <div className="aboutus_content">
+          {/* our vision container */}
           <div className="ourvision">
+            {/* our vision image */}
             <img
               src="https://res.cloudinary.com/manlikeemma/image/upload/v1655994514/Ibeji%20Foundation/vision_xti82k.png"
               alt=""
@@ -71,6 +82,7 @@ export const Aboutus = () => {
               height={"150px"}
               style={{ marginBottom: "50px" }}
             />
+            {/* our vision text container */}
             <div className="ourvision_text">
               <h1 className="h1">Our vision</h1>
               <h3 className="h3">
@@ -79,14 +91,16 @@ export const Aboutus = () => {
               </h3>
             </div>
           </div>
-          <div className="ourmission">
+          {/* our mission container */}
+          <div className="ourmission"> 
             <svg
               style={{ marginBottom: "50px" }}
               width="150px"
               height="150px"
               viewBox="0 0 496 496"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              // our mission svg
+              xmlns="http://www.w3.org/2000/svg"  
             >
               <path
                 d="M477.072 480L407.224 332.088L448 291.312L480 323.312V216H372.688L404.688 248L379.44 273.248L341.072 192H286.208L268.752 160H256V112H438.128L408.904 63.288L427.816 16H256V0H240V160H170.944L18.944 480H0V496H496V480H477.072ZM256 32H404.184L391.096 64.712L409.872 96H256V32ZM427.312 248L411.312 232H464V284.688L448 268.688L320 396.688L264 340.688L152 452.688L131.312 432L268 295.312L324 351.312L427.312 248ZM36.656 480L181.056 176H259.248L304.976 259.832L319.024 252.168L294.928 208H330.928L367.416 285.272L324 328.688L268 272.688L108.688 432L152 475.312L264 363.312L320 419.312L395.208 344.104L459.376 480H36.656Z"
@@ -97,13 +111,7 @@ export const Aboutus = () => {
               <path d="M352 64H336V80H352V64Z" fill="#28DA6C" />
             </svg>
 
-            {/* <img
-              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655994956/Ibeji%20Foundation/goal-svgrepo-com_ko50eg.svg"
-              alt=""
-              width={"150px"}
-              height={"150px"}
-              style={{ marginBottom: "50px" }}
-            /> */}
+           {/* our mission statement text container */}
             <h1 className="h1">Mission Statement</h1>
             <h3 className="h3">
               “Wisdom is better than weapons of war” by professing , practicing,
@@ -112,61 +120,48 @@ export const Aboutus = () => {
             </h3>
           </div>
         </div>
-
-        {/* <div className="image-holder">
-          <div className="founder-img">
-            <img
-              src="https://res.cloudinary.com/manlikeemma/image/upload/v1655558183/Ibeji%20Foundation/MENA.max-1500x500_geuz5c.jpg"
-              width="100%"
-              height=""
-              alt=""
-              className="founder1"
-            />
-          </div>
-          <div className="founder-txt" data-aos="fade-down-left">
-            <div className="cart"></div>
-            <div className="cart2 aboutus-font">
-              <h1 className="head-color">Iyidemilade Nasiru</h1>
-              <h2>Group President & Chief Executive</h2>
-              <hr></hr>
-              <p className="about  aboutus-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                quidem minima assumenda molestias voluptate, sequi aperiam fugit
-                eum veniam consectetur illum eligendi nesciunt repellendus
-                distinctio maiores aliquam explicabo suscipit deserunt.
-              </p>
-              <button className="long-btn">Read More</button>
-              <button className="btn-arr">
-                <AiOutlineArrowRight />
-              </button>
-            </div>
-          </div>
-        </div> */}
-         <div className="ourfounder">
+        {/* End of mission and vision statement container */}
+                  {/* our founder container */}
+                <div className="ourfounder">
            <div className="founder-holder">
            <div className="text-holder">
-            <div className="split ">
+           
               <div className="head-color1">
              <h2 className="founder_spc">About Our Founder</h2> 
              </div>
-           <p>Alhaji R.A Ebiti is a graduate of Obafemi Awolowo University in Ife, Osun State of Nigeria. 
+             {/* our founder image on screen sizes 425px - 320px */}
+             <div className="img-holder">
+              <img src="/images/founder2.jpg" width="400px" alt="" className="responsive2 display_img" />
+            </div>
+            {/* our founder text */}
+             <div className="text_hold_2">
+           <p className="ssss">Alhaji R.A Ebiti is a graduate of Obafemi Awolowo University in Ife, Osun State of Nigeria. 
             He is a fellow of the prestigious Institute of Chartered Accountant of Nigeria (ICAN). 
-            He is a seasoned Accountant/Administrator and entrepreneur per excellent.</p>
+            He is a seasoned Accountant and entrepreneur per excellent.</p>
             <p> He started his professional 
             career with an international renowned firm of chartered accountants KPMG where he handle large and medium
              sized audit of companies in different sector of the economy.Alhaji Rafiu Ebiti; he is Chairman of the Foundation ;  He is a devoted Muslim and a distinguished Business man;
               A great Philanthropist and Humanitarian.</p>
+              </div>
+              
              <div className="x_holder ">
-             <div className="x founder_font " data-aos="flip-left"><div className="mb-3"><img src="/images/suitcase.png" height="50px" alt="" /></div>
+              {/* founder other positions/jobs */}
+             <div className="x founder_font " data-aos="flip-left">
+              {/* our founder job icons */}
+              <div className="mb-3"><img src="/images/suitcase.png" height="50px" alt="" /></div>
+              {/* our founder jobs text */}
              <p className=""> Alhaji Rafiu Adisa Ebiti is currently the Pro-chancellor/ Chairman, 
               Governing Council of Summit University Kwara State.; He spearheads other Muslim Organizations in Nigeria; 
               He has over 30 years managing experience with the company.</p>
 
 </div>
              <div className="y" data-aos="flip-left">
+              {/* our founder skills and expertise container */}
               <div className="founder_font mb-3 ">
+               {/* our founders skills and expertise icon  */}
               <img src="/images/skill.png"  height="50px" alt="" />
               </div>
+              {/* our founder skills text */}
               <p className="founder_font">
               He gained vast ocean of knowledge and skill in the areas of accounting, taxation, secretarial practice, auditing,
                investigation, business management receivership and liquidation.  auditing,
@@ -175,20 +170,21 @@ export const Aboutus = () => {
               </p>
             
 </div>
-             </div>
+          
              </div>
            </div>
+           {/* our founder image at full screen */}
             <div className="img-holder">
-              <img src="/images/founder2.jpg" width="400px" alt="" />
+              <img src="/images/founder2.jpg" width="400px" alt="" className="responsive1 display_img2" />
             </div>
             
            </div>
 
          </div>
-
+         {/* End of  our founder container */}
+         {/* Our team container */}
         <div>
-        
-          <div className="spc1">
+         <div className="spc1">
             <div className="red">
               <h1 className="head-color h1" data-aos="fade-right">
                 Our Esteemed Team
@@ -209,18 +205,21 @@ export const Aboutus = () => {
               {/* <h1 className="center head-color">Our Team</h1> */}
               <div className="team-arr">
                 <div className=" ">
+                  {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
                     width="250px"
                     alt=""
                   />
+                  {/* team member name and positions */}
                   <div className="text-arr">
                     <p className="team-name">Dr ABDULRASAQ MOYOSORE EBITI</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div>
                 <div className="">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -228,11 +227,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">ENGR. IBRAHIM OLUWATOSIN EBITI</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div>
                 <div className="">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -240,11 +241,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">ENGR. TOYOSI MARIAM EBITI- LABINJO</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -252,11 +255,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">ABDULLAHI OLAOLUWA EBITI</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div> 
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -264,11 +269,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Mrs Naomi Ogunlana</p>
                     <p>WELFARE MANAGER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -276,11 +283,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Mr . Mikhail Zakariyyah</p>
                     <p>WELFARE MANAGER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -288,11 +297,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Mr. Jubril Atolani</p>
                     <p>WELFARE MANAGER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -300,6 +311,7 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Rafiat Gbadamosi</p>
                     <p>TREASURER/ACCOUNTANT</p>
                   </div>
@@ -308,7 +320,8 @@ export const Aboutus = () => {
             </div>
           </div>
         </div>
-
+        {/* end of out team container */}
+          {/* footer component */}
         <Footer />
       </div>
     </div>
