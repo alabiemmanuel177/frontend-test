@@ -12,8 +12,10 @@ import { MdArrowDropDown } from "react-icons/md";
 import axios from "axios";
 import { Context } from "../components/context/Context";
 import { PasswordChange } from "../components/PasswordChange";
+// necessery file imports
 
 export const Admin = () => {
+  // api consumption begin
   const [active, setActive] = useState("FirstTable");
   const [posts, setPosts] = useState([]);
   useEffect(() => {
@@ -49,10 +51,12 @@ export const Admin = () => {
 
   return (
     <div className="admin-holder">
+      {/* bootsrap link */}
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         rel="stylesheet"
       />
+      
       <div className="sidebar">
         <div>
           <div className="sidebar1">

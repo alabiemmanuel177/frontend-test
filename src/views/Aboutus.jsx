@@ -18,6 +18,7 @@ export const Aboutus = () => {
           className="banner-head"
           
         />
+        {/* banner ends */}
         <div id="ourwork" className="ourwork">
           <h1 className="h1">About Us</h1>
           <h3>
