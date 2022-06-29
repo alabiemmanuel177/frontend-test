@@ -6,6 +6,7 @@ import * as Yup from "yup";
 import "../views/appform.css";
 import { useState } from "react";
 import axios from "axios";
+import config from "../config";
 
 // required import
 
@@ -14,14 +15,13 @@ export const AppForm = () => {
   const [emailaddress, setEmailaddress] = useState("");
   const [phoneno, setPhoneno] = useState("");
   const [address, setAddress] = useState("");
-  //   const [type, setType] = useState("")
   const [error, setError] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(false);
     try {
-      const res = await axios.post("/applicants", {
+      const res = await axios.post(`${config.baseURL}/api/applicants`, {
         name,
         emailaddress,
         phoneno,
