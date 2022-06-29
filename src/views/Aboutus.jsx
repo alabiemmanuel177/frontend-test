@@ -25,6 +25,7 @@ export const Aboutus = () => {
             long term
           </h3>
         </div>
+        {/* our history container */}
         <div className="history">
           <div className="history_image">
             {/* ibeji logo */}
@@ -37,7 +38,7 @@ export const Aboutus = () => {
             />
           </div>
           <div className="history_text">
-            {/* our history */}
+            {/* our history text*/}
             <h1 style={{ marginBottom: "50px" }} className="h1">
               OUR HISTORY
             </h1>
@@ -66,6 +67,8 @@ export const Aboutus = () => {
             </h3>
           </div>
         </div>
+        {/* End of our history container */}
+
         {/* our vision and mission container */}
         <div className="aboutus_content">
           {/* our vision container */}
@@ -116,6 +119,7 @@ export const Aboutus = () => {
             </h3>
           </div>
         </div>
+        {/* End of mission and vision statement container */}
                   {/* our founder container */}
                 <div className="ourfounder">
            <div className="founder-holder">
@@ -168,6 +172,7 @@ export const Aboutus = () => {
           
              </div>
            </div>
+           {/* our founder image at full screen */}
             <div className="img-holder">
               <img src="/images/founder2.jpg" width="400px" alt="" className="responsive1 display_img2" />
             </div>
@@ -175,10 +180,10 @@ export const Aboutus = () => {
            </div>
 
          </div>
-
+         {/* End of  our founder container */}
+         {/* Our team container */}
         <div>
-        
-          <div className="spc1">
+         <div className="spc1">
             <div className="red">
               <h1 className="head-color h1" data-aos="fade-right">
                 Our Esteemed Team
@@ -199,18 +204,21 @@ export const Aboutus = () => {
               {/* <h1 className="center head-color">Our Team</h1> */}
               <div className="team-arr">
                 <div className=" ">
+                  {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
                     width="250px"
                     alt=""
                   />
+                  {/* team member name and positions */}
                   <div className="text-arr">
                     <p className="team-name">Dr ABDULRASAQ MOYOSORE EBITI</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div>
                 <div className="">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -218,11 +226,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">ENGR. IBRAHIM OLUWATOSIN EBITI</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div>
                 <div className="">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -230,11 +240,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">ENGR. TOYOSI MARIAM EBITI- LABINJO</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -242,11 +254,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">ABDULLAHI OLAOLUWA EBITI</p>
                     <p>BOARD OF TRUSTEE MEMBER</p>
                   </div>
                 </div> 
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -254,11 +268,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Mrs Naomi Ogunlana</p>
                     <p>WELFARE MANAGER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -266,11 +282,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Mr . Mikhail Zakariyyah</p>
                     <p>WELFARE MANAGER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -278,11 +296,13 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Mr. Jubril Atolani</p>
                     <p>WELFARE MANAGER</p>
                   </div>
                 </div>
                 <div className="mb-5">
+                     {/* team member images */}
                   <img
                     src="/images/staticStaff.jpg"
                     className="staff-img"
@@ -290,6 +310,7 @@ export const Aboutus = () => {
                     alt=""
                   />
                   <div className="text-arr">
+                      {/* team member name and positions */}
                     <p className="team-name">Rafiat Gbadamosi</p>
                     <p>TREASURER/ACCOUNTANT</p>
                   </div>
@@ -298,7 +319,8 @@ export const Aboutus = () => {
             </div>
           </div>
         </div>
-
+        {/* end of out team container */}
+          {/* footer component */}
         <Footer />
       </div>
     </div>
