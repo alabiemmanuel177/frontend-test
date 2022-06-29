@@ -7,6 +7,8 @@ import "../views/appform.css";
 import { useState } from "react";
 import axios from "axios";
 
+// required import
+
 export const AppForm = () => {
   const [name, setName] = useState("");
   const [emailaddress, setEmailaddress] = useState("");
@@ -31,7 +33,7 @@ export const AppForm = () => {
       setError(true);
     }
   };
-
+  // formik form validation
   const validate = Yup.object({
     firstName: Yup.string()
       .max(15, "Must be 15 characters or less")
@@ -54,7 +56,7 @@ export const AppForm = () => {
       <Formik
         initialValues={{
           Name: "",
-          //   lastName: "",
+          lastName: "",
           Email: "",
           Phoneno: "",
           Dddress: "",

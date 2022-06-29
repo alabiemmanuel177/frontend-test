@@ -75,7 +75,7 @@ export const Footer = () => {
             <Form className="row g-" onSubmit={handleSubmit}>
               <div className="col-md-6">
                 <TextField
-                  label="First Name"
+                  label="FirstName"
                   name="firstName"
                   type="text"
                   onChange={(e) => setFirstName(e.target.value)}
@@ -83,7 +83,7 @@ export const Footer = () => {
               </div>
               <div className="col-md-6">
                 <TextField
-                  label="Last Name"
+                  label="LastName"
                   name="lastName"
                   type="text"
                   onChange={(e) => setLastName(e.target.value)}
@@ -99,8 +99,8 @@ export const Footer = () => {
               </div>
               <div className="col-md-6">
                 <TextField
-                  label="PhoneNo"
-                  name="Phone"
+                  label="Phone"
+                  name="phoneno"
                   type="number"
                   onChange={(e) => setPhoneno(e.target.value)}
                 />

@@ -56,15 +56,17 @@ export const Admin = () => {
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         rel="stylesheet"
       />
-      
+      {/* sidebar container */}
       <div className="sidebar">
         <div>
           <div className="sidebar1">
             <div className="user1">
               <h4>Ibeji Foundation</h4>
               {/* <img src="images/icon.png" className="user-icon" alt="icon" /> */}
+              {/* profile pic icon */}
               <AdminImg/>
               <div className="dropdown">
+                {/* logout and change password drop down */}
                 <div className="logout-dropdown">
                   <p>
                     {user.username}
@@ -80,6 +82,7 @@ export const Admin = () => {
               </div>
             </div>
             <hr></hr>
+            {/* side navbar begins */}
             <div className="options">
               <p className="option">
                 <BsPeople className="o-icon" />
@@ -105,5 +108,6 @@ export const Admin = () => {
       {active === "SecondTable" && <Applicantstable applicants={applicants} />}
       {active === "ThirdTable" && <ContactTable contacts={contacts} />}
     </div>
+    // side navbar end
   );
 };
