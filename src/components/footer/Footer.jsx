@@ -120,6 +120,11 @@ export const Footer = () => {
                 </button>
               </div>
             </Form>
+            {error && (
+              <span style={{ color: "red", marginTop: "10px" }}>
+                Something Wrong!
+              </span>
+            )}
           </div>
         )}
       </Formik>
