@@ -2,7 +2,7 @@ import React from "react";
 import "./aboutus.css";
 import { Navbar } from "../components/navbar/Navbar";
 import { Footer } from "../components/footer/Footer";
-import { AiOutlineArrowRight } from "react-icons/ai";
+// import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const Aboutus = () => {
   return (
@@ -148,7 +148,7 @@ export const Aboutus = () => {
               {/* founder other positions/jobs */}
              <div className="x founder_font " data-aos="flip-left">
               {/* our founder job icons */}
-              <div className="mb-3"><img src="/images/suitcase.png" height="50px" alt="" /></div>
+              <div className="mb-3"><img src="/icons/suitcase.png" height="50px" alt="" /></div>
               {/* our founder jobs text */}
              <p className=""> Alhaji Rafiu Adisa Ebiti is currently the Pro-chancellor/ Chairman, 
               Governing Council of Summit University Kwara State.; He spearheads other Muslim Organizations in Nigeria; 
@@ -159,7 +159,7 @@ export const Aboutus = () => {
               {/* our founder skills and expertise container */}
               <div className="founder_font mb-3 ">
                {/* our founders skills and expertise icon  */}
-              <img src="/images/skill.png"  height="50px" alt="" />
+              <img src="/icons/skill.png"  height="50px" alt="" />
               </div>
               {/* our founder skills text */}
               <p className="founder_font">
