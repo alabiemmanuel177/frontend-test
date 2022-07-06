@@ -29,7 +29,7 @@ export const  Login = ()=> {
     <div className="color">
       <div className="form-arr">
         <div className="login-div">
-          <img src="/images/ibeji.jpg" alt="ibeji"  height="50px" className="login-icon" />
+          <img src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" alt="ibeji"  height="50px" className="login-icon" />
         </div>
         <form onSubmit={handleSubmit}>
           <label>
