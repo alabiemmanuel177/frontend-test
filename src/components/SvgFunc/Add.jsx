@@ -72,7 +72,7 @@ const Add = () => {
       </button>
       <Popup4 trigger={buttonPopup3} setTrigger={sBtn3}>
         <form>
-          <h2>Add Employee</h2>
+          <h2>Add Posts</h2>
           <div className="form-row">
             <div className="form-group form-edit">
               <label>Post Header</label>

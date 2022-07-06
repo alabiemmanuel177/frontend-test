@@ -27,3 +27,15 @@ td{
     display: flex;
     flex-direction: row !important;
 }
+
+.add_img_holder{
+    margin-top: 10px;
+    
+
+}
+
+.add_img{
+    width: 100%;
+    border: 1px solid green;
+    background-color: white;
+}
