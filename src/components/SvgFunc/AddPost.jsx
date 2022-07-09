@@ -45,7 +45,6 @@ const Add = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError(false);
-
     try {
 
       if(!appPhotos){
