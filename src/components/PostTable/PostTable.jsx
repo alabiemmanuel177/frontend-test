@@ -1,7 +1,7 @@
 import React from "react";
 import "./posttable.css";
 import { Table } from "./Table";
-import Add from "../SvgFunc/Add";
+import Add from "../SvgFunc/AddPost";
 
 export const PostTable = ({ posts }) => {
   return (
