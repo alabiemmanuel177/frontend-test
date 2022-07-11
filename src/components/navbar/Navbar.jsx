@@ -54,13 +54,13 @@ export const Navbar = () => {
             <a>About Us</a>
           </Link>
           <div className="dropdown-content">
-            <a href="" className="about-link">
+            <a href="#history" className="about-link about-link3">
               Our History
             </a>
-            <a href="" className="about-link">
-              Mission
+            <a href="#mission" className="about-link about-link3">
+              Our Mission
             </a>
-            <a href="" className="about-link">
+            <a href="#team" className="about-link about-link3">
               Our Team
             </a>
           </div>

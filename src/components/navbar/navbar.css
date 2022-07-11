@@ -46,6 +46,10 @@
   display: none;
 }
 
+.about-link3{
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1366px) {
   .navbar-btn a {
     padding: 7px !important;

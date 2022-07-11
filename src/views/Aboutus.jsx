@@ -40,7 +40,7 @@ export const Aboutus = () => {
           </div>
           <div className="history_text">
             {/* our history text*/}
-            <h1 style={{ marginBottom: "50px" }} className="h1">
+            <h1 style={{ marginBottom: "50px" }} className="h1" id="history">
               OUR HISTORY
             </h1>
             <h3 className="h3">
@@ -92,7 +92,7 @@ export const Aboutus = () => {
             </div>
           </div>
           {/* our mission container */}
-          <div className="ourmission"> 
+          <div className="ourmission" id="mission"> 
             <svg
               style={{ marginBottom: "50px" }}
               width="150px"
@@ -184,7 +184,7 @@ export const Aboutus = () => {
          {/* End of  our founder container */}
          {/* Our team container */}
         <div>
-         <div className="spc1">
+         <div className="spc1" id="team">
             <div className="red">
               <h1 className="head-color h1" data-aos="fade-right">
                 Our Esteemed Team
