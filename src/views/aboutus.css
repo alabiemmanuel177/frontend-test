@@ -2,7 +2,7 @@
   background-color: whitesmoke;
 }
 
-.display_img{
+.display_img {
   display: none;
 }
 
@@ -14,6 +14,10 @@
 }
 .cart2 {
   width: 35%;
+}
+.ourfounder {
+  background-color: rgb(40, 218, 108) !important;
+  color: white;
 }
 .founder-txt h1 {
   font-size: 33px;
@@ -153,7 +157,7 @@
   font-size: 20px !important;
   font-weight: bold !important;
 }
-.board-members{
+.board-members {
   display: flex;
   flex-direction: row;
   /* justify-content: space-evenly; */
@@ -164,51 +168,48 @@
   justify-content: space-around;
 }
 
-.board-holder{
+.board-holder {
   background-color: white;
 }
 
-.x_holder{
+.x_holder {
   display: flex;
   flex-direction: row;
 }
 
-.x{
+.x {
   width: 50%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 10px;
-
 }
 
-.y{
+.y {
   width: 50%;
   margin-left: 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 10px;
 }
 
-.founder_font{
+.founder_font {
   text-align: center;
 }
 
-.head-color1{
+.head-color1 {
   color: #28da6c;
   border-left: 4px solid #000487;
 }
 
-.founder_spc{
+.founder_spc {
   margin-left: 10px;
 }
 
-.x_holder{
+.x_holder {
   margin-top: 50px;
 }
 
-.responsive1{
- 
-    width: 100%;
-    height: auto;
-
+.responsive1 {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1920px) {
@@ -237,11 +238,11 @@
     margin-left: 10%;
     margin-right: 10%;
   }
-  .x_holder{
-  width: 687px;
+  .x_holder {
+    width: 687px;
   }
 
-  .text-holder{
+  .text-holder {
     margin-top: 500px;
   }
 
@@ -252,14 +253,10 @@
     top: -25px;
   }
 
-  .text_hold_2{
+  .text_hold_2 {
     position: relative;
     bottom: 21px;
   }
- 
-
-
-
 
   h1 {
     font-size: 25px !important;
@@ -292,7 +289,7 @@
     margin-left: 12px;
   }
 
-  .banner-head{
+  .banner-head {
     height: 200px;
   }
 
@@ -309,84 +306,80 @@
     margin-bottom: 10px;
   }
 
-  .x_holder{
+  .x_holder {
     width: 400px;
-    }
-
-    .y{
-      margin-left: 0px;
-      width: 95%;
-      margin-top: 20px;
-    }
-
-    .x{
-      width: 95%;
-    }
-
-    .text_hold_2{
-      width: 390px;
-    }
-
-
-  .team-p{
-    width: 90%;
-    margin-left: 5%;
-    
   }
 
-  .x_holder{
+  .y {
+    margin-left: 0px;
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .x {
+    width: 95%;
+  }
+
+  .text_hold_2 {
+    width: 390px;
+  }
+
+  .team-p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .x_holder {
     display: flex;
     flex-direction: column;
   }
 
-
-  .responsive1{
+  .responsive1 {
     position: relative;
     top: 35px;
   }
 
-  .display_img2{
+  .display_img2 {
     display: none;
   }
 
-  .display_img{
+  .display_img {
     display: block;
     height: 300px;
     width: 250px;
     margin-bottom: 50px;
     position: relative;
     right: 20px;
-    
   }
 
-  .head-color1{
+  .head-color1 {
     width: 300px;
   }
 }
 
-.ourfounder{
+.ourfounder {
   background-color: white;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.founder-holder{
+.founder-holder {
   display: flex;
   flex-direction: row;
 }
 
-.text-holder{
+.text-holder {
   width: 50%;
   margin-left: 5%;
   margin-top: 20px;
 }
 
-.img-holder{
+.img-holder {
   width: 30%;
   margin-left: 10%;
 }
 
-.sttt{
+.sttt {
   color: #28da6c;
 }
 
@@ -400,27 +393,21 @@
     margin-left: 12px;
   }
 
-
-
-  .hist_img{
+  .hist_img {
     width: 150px;
     height: 150px;
   }
 
-  .x_holder{
+  .x_holder {
     width: 350px;
-    }
-
-    .text_hold_2{
-      width: 350px;
-    }
-  .responsive1{
-    height: 200px;
   }
 
-
-
-
+  .text_hold_2 {
+    width: 350px;
+  }
+  .responsive1 {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 325px) {
@@ -437,34 +424,29 @@
     width: 200px;
   }
 
-  .x_holder{
+  .x_holder {
     width: 290px;
-    }
+  }
 
-    .text_hold_2{
-      width: 290px;
-    }
+  .text_hold_2 {
+    width: 290px;
+  }
 
-    .display_img{
-    
-      margin-bottom: 50px;
-      position: relative;
-      right: -2px;
-      
-    }
+  .display_img {
+    margin-bottom: 50px;
+    position: relative;
+    right: -2px;
+  }
 
-    .y{
-      margin-left: 0px;
-      width: 90%;
-      margin-top: 20px;
-    }
-  
-    .x{
-      width: 90%;
-    }
-  
+  .y {
+    margin-left: 0px;
+    width: 90%;
+    margin-top: 20px;
+  }
 
-  
+  .x {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -489,4 +471,3 @@
     margin-left: 10%;
   }
 }
-

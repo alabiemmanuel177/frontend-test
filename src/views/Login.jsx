@@ -6,10 +6,11 @@ import { Context } from "../components/context/Context";
 import axios from "axios";
 import config from "../config";
 
-export const  Login = ()=> {
+export const Login = () => {
   const userRef = useRef();
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context);
+  console.log(dispatch);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,18 +19,23 @@ export const  Login = ()=> {
       const res = await axios.post(`${config.baseURL}/api/auth/login`, {
         username: userRef.current.value,
         password: passwordRef.current.value,
-      })
-      dispatch({type:"LOGIN_SUCCESS", payload: res.data})
+      });
+      dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
       res.data && window.location.replace("/admin");
     } catch (err) {
-      dispatch({type:"LOGIN_FAILURE"})
+      dispatch({ type: "LOGIN_FAILURE" });
     }
-  }; 
+  };
   return (
     <div className="color">
       <div className="form-arr">
         <div className="login-div">
-          <img src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png" alt="ibeji"  height="50px" className="login-icon" />
+          <img
+            src="https://res.cloudinary.com/manlikeemma/image/upload/v1655408480/Ibeji%20Foundation/logo_copy_rwgmt9.png"
+            alt="ibeji"
+            height="50px"
+            className="login-icon"
+          />
         </div>
         <form onSubmit={handleSubmit}>
           <label>
@@ -62,12 +68,14 @@ export const  Login = ()=> {
               </div>
             </div>
           </label>
-          <input type="submit" value="Sign in" className="signin-btn" disabled={isFetching} />
+          <input
+            type="submit"
+            value="Sign in"
+            className="signin-btn"
+            disabled={isFetching}
+          />
         </form>
       </div>
     </div>
   );
-}
-
-
-
+};
