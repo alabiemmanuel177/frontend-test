@@ -74,9 +74,9 @@ export const Admin = () => {
                   </p>
                 </div>
                 <div className="dropdown-content">
-                  <a  onClick={handleLogout}>
+                  <h4  onClick={handleLogout}>
                     {user && "Logout"}
-                  </a>
+                  </h4>
                   <PasswordChange id={user._id} />
                 </div>
               </div>
@@ -84,22 +84,22 @@ export const Admin = () => {
             <hr></hr>
             {/* side navbar begins */}
             <div className="options">
-              <p className="option">
+              <div className="option">
                 <BsPeople className="o-icon" />
-                <a  onClick={() => setActive("FirstTable")}>
+                <h4  onClick={() => setActive("FirstTable")}>
                   Posts
-                </a>
-              </p>
-              <p className="option">
+                </h4>
+              </div>
+              <div className="option">
                 <AiOutlineTable className="o-icon" />
-                <a  onClick={() => setActive("SecondTable")}>
+                <h4  onClick={() => setActive("SecondTable")}>
                   Applicants
-                </a>
-              </p>
-              <p className="option">
+                </h4>
+              </div>
+              <div className="option">
                 <AiOutlineContacts className="o-icon" />
-                <a onClick={() => setActive("ThirdTable")}>Contacts</a>
-              </p>
+                <h4 onClick={() => setActive("ThirdTable")}>Contacts</h4>
+              </div>
             </div>
           </div>
         </div>

@@ -2,11 +2,9 @@ import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { useState } from "react";
 import { usePaystackPayment } from "react-paystack";
 
 export const Navbar = () => {
-  const [active, setActive] = useState(false);
 
 
   const config = {
@@ -27,13 +25,13 @@ export const Navbar = () => {
     // implementation for  whatever you want to do when the Paystack dialog closed.
     console.log("closed");
   };
-  const PaystackHookExample = () => {
-    return (
-      <div>
-        <button>Donate</button>
-      </div>
-    );
-  };
+  // const PaystackHookExample = () => {
+  //   return (
+  //     <div>
+  //       <button>Donate</button>
+  //     </div>
+  //   );
+  // };
   return (
     <div className="navbar">
       <div className="logo">

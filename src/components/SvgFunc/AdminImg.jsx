@@ -1,6 +1,6 @@
 import React from 'react'
 import Popup2 from "../Popup/Popup2";
-import { useState, useEffect} from "react";
+import { useState} from "react";
 import "./fullbtn.css";
 import {BsPerson} from 'react-icons/bs'
 

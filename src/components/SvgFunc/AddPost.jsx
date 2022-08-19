@@ -7,18 +7,17 @@ import config from "../../config";
 import "./fullbtn.css";
 
 const Add = () => {
-  const [appPhotos, setPhotos] = useState(null)
+  const [appPhotos, setPhotos] = useState(null);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [beneficiary, setBeneficiary] = useState("");
   const [error, setError] = useState(false);
   const [multipleFiles, setMultipleFiles] = useState([]);
-  
 
   const MultipleFileChange = (e) => {
     setMultipleFiles(e.target.files);
   };
-  
+
   const UploadMultipleFiles = async (e) => {
     e.preventDefault();
     const formData = new FormData();
@@ -28,7 +27,7 @@ const Add = () => {
     try {
       const res = await axios.post(
         `${config.baseURL}/api/upload-images`,
-        formData,
+        formData
       );
       const { data } = res.data;
       setPhotos(data);
@@ -46,8 +45,7 @@ const Add = () => {
     e.preventDefault();
     setError(false);
     try {
-
-      if(!appPhotos){
+      if (!appPhotos) {
         throw new Error("Upload photo");
       }
       const res = await axios.post(`${config.baseURL}/api/posts`, {
@@ -58,7 +56,7 @@ const Add = () => {
       });
       res.data && window.location.reload();
     } catch (err) {
-      console.log(err)
+      console.log(err);
       setError(true);
     }
   };
@@ -102,28 +100,27 @@ const Add = () => {
             ></input>
           </div>
           <div className="ddd">
-          <form>
-            <div className="form-group multi-preview "></div>
+            <form>
+              <div className="form-group multi-preview "></div>
 
-            <div className="form-group mt-4 upload_btn2">
-              <input
-                type="file"
-                className="form-control"
-                onChange={(e) => MultipleFileChange(e)}
-                multiple
-              />
+              <div className="form-group mt-4 upload_btn2">
+                <input
+                  type="file"
+                  className="form-control"
+                  onChange={(e) => MultipleFileChange(e)}
+                  multiple
+                />
+              </div>
+            </form>
+            <div>
+              <button
+                type="submit"
+                className="btn btn-danger btn-block mt-4 upload_btn"
+                onClick={(e) => UploadMultipleFiles(e)}
+              >
+                Upload
+              </button>
             </div>
-          </form>
-          <div>
-            <button
-              type="submit"
-              className="btn btn-danger btn-block mt-4 upload_btn"
-              onClick={(e) => UploadMultipleFiles(e)}
-            >
-              Upload
-            </button>
-            
-          </div>
           </div>
           <button
             type="submit"
