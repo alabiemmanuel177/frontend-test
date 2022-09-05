@@ -86,19 +86,19 @@ export const Admin = () => {
             <div className="options">
               <div className="option">
                 <BsPeople className="o-icon" />
-                <h4  onClick={() => setActive("FirstTable")}>
+                <h5 className="admin_link"  onClick={() => setActive("FirstTable")}>
                   Posts
-                </h4>
+                </h5>
               </div>
               <div className="option">
                 <AiOutlineTable className="o-icon" />
-                <h4  onClick={() => setActive("SecondTable")}>
+                <h5  className="admin_link"  onClick={() => setActive("SecondTable")}>
                   Applicants
-                </h4>
+                </h5>
               </div>
               <div className="option">
                 <AiOutlineContacts className="o-icon" />
-                <h4 onClick={() => setActive("ThirdTable")}>Contacts</h4>
+                <h5  className="admin_link" onClick={() => setActive("ThirdTable")}>Contacts</h5>
               </div>
             </div>
           </div>

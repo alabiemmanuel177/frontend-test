@@ -59,4 +59,11 @@
     position: relative;
     left: 20px;
   }
+
+
+ .table-holder{
+  width: 1030px;
+  position: relative;
+  top: -20px;
+ }
 }

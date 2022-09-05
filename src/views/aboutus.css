@@ -181,6 +181,8 @@
   width: 50%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 10px;
+  background-color: white;
+  color: black;
 }
 
 .y {
@@ -188,6 +190,8 @@
   margin-left: 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 10px;
+  background-color: white;
+  color: black;
 }
 
 .founder_font {
@@ -201,6 +205,7 @@
 
 .founder_spc {
   margin-left: 10px;
+  color: white;
 }
 
 .x_holder {
@@ -209,7 +214,9 @@
 
 .responsive1 {
   width: 100%;
-  height: auto;
+  height: 550px;
+  border: 10px solid white;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -240,6 +247,8 @@
   }
   .x_holder {
     width: 687px;
+    position: relative;
+    right: 306px;
   }
 
   .text-holder {
@@ -308,6 +317,8 @@
 
   .x_holder {
     width: 400px;
+    position: relative;
+    right: 168px;
   }
 
   .y {
@@ -400,6 +411,8 @@
 
   .x_holder {
     width: 350px;
+    position: relative;
+    right: 150px;
   }
 
   .text_hold_2 {
@@ -470,4 +483,39 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  .text_hold_2{
+    position: relative;
+    right: 150px;
+    width: 370px;
+  }
+
+  .responsive2{
+    position: relative;
+    right: 150px;
+    border: 10px solid white;
+  border-radius: 2px;
+
+  }
+
+  .head-color1{
+    position: relative;
+    right: 150px;
+  }
+
+  .ssss{
+    width: 300px ;
+  }
+
+
+}
+
+@media screen and (max-width:320px) {
+  .x_holder {
+    width: 300px;
+    position: relative;
+    right: 120px;
+  }
+
+  
 }

@@ -126,8 +126,9 @@ export const Aboutus = () => {
             {/* our founder image at full screen */}
             <div className="img-holder">
               <img
-                src="https://res.cloudinary.com/manlikeemma/image/upload/v1660505883/Ibeji%20Foundation/removal.ai__tmp-62f8b95a963f6_nfcsm3.png"
+                src="https://res.cloudinary.com/manlikeemma/image/upload/v1660469143/Ibeji%20Foundation/WhatsApp_Image_2022-08-14_at_9.10.52_AM_vvky0u.jpg"
                 width="400px"
+                
                 alt=""
                 className="responsive1 display_img2"
               />
@@ -139,7 +140,7 @@ export const Aboutus = () => {
               {/* our founder image on screen sizes 425px - 320px */}
               <div className="img-holder">
                 <img
-                  src="https://res.cloudinary.com/manlikeemma/image/upload/v1660505883/Ibeji%20Foundation/removal.ai__tmp-62f8b95a963f6_nfcsm3.png"
+                  src="https://res.cloudinary.com/manlikeemma/image/upload/v1660469143/Ibeji%20Foundation/WhatsApp_Image_2022-08-14_at_9.10.52_AM_vvky0u.jpg"
                   width="400px"
                   alt=""
                   className="responsive2 display_img"
@@ -154,7 +155,7 @@ export const Aboutus = () => {
                   (ICAN). He is a seasoned Accountant and entrepreneur per
                   excellent.
                 </p>
-                <p>
+                <p className="ssss">
                   {" "}
                   He started his professional career with an international
                   renowned firm of chartered accountants KPMG where he handle

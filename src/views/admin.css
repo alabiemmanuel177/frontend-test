@@ -90,7 +90,15 @@ hr{
 
 .o-icon {
   position: relative;
-  top: -4px;
+  top: 4px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+
+.admin_link{
+  margin-top: 7px;
 }
 
 .page-head {
@@ -176,14 +184,15 @@ hr{
   margin-top: 50px;
   padding-left: 10%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .options {
   display: flex;
   flex-direction: column;
   line-height: 0.2;
+  
 }
 
 .sidebar1 {
@@ -252,4 +261,11 @@ hr{
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+.option{
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+
 }

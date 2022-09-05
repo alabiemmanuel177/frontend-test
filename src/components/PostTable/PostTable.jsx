@@ -15,7 +15,7 @@ export const PostTable = ({ posts }) => {
         <React.Fragment>
           <h1 className="page-head">Post Configuration</h1>
           <Add className="add-btn" />
-          <Table size="big">
+          <Table size="big" className="pst">
             <TableHead>
               <TableRow>
                 <TableCell className="tablecell">Title</TableCell>
