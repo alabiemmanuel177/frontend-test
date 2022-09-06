@@ -3,6 +3,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { usePaystackPayment } from "react-paystack";
+import "./navbar2.css"
 
 export const Navbar = () => {
 
@@ -64,7 +65,33 @@ export const Navbar = () => {
           </div>
         </div>
 
-        <Link to="/thefoundation" className="Nlink link-pos2">
+{/* 
+        <div className="menu-item">
+          <Link to="/aboutus" className="Nlink abt-pos dropdown_head">
+            <a>About Us</a>
+          </Link>
+          <div className="sub-menu">
+          <li class="menu-item b"> <a href="#history" className="about-link about-link3">
+              Our History
+            </a></li>
+            <li class="menu-item b"> <a href="#mission" className="about-link about-link3">
+              Our Mission
+            </a></li>
+            <li class="menu-item b"> <a href="#team" className="about-link about-link3">
+              Our Team
+            </a></li>
+          </div>
+        </div> */}
+           {/* <li class="menu-item">
+      <a href="#0" className="dropdown_head">About us</a>
+      <ol class="sub-menu">
+        <li class="menu-item b"><a href="#0" style={{color:"red"}}>Big Widgets</a></li>
+        <li class="menu-item b"><a href="#0">Bigger Widgets</a></li>
+        <li class="menu-item b"><a href="#0">Huge Widgets</a></li>
+      </ol>
+    </li> */}
+
+        <Link to="/thefoundation" className="Nlink link-pos2 other_link">
           <a>The Foundation</a>
         </Link>
         <Link to="/project" className="Nlink link-pos2">

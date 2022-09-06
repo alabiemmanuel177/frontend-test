@@ -84,21 +84,21 @@ export const Admin = () => {
             <hr></hr>
             {/* side navbar begins */}
             <div className="options">
-              <div className="option">
+              <div className="option"  onClick={() => setActive("FirstTable")}>
                 <BsPeople className="o-icon" />
-                <h5 className="admin_link"  onClick={() => setActive("FirstTable")}>
+                <h5 className="admin_link" >
                   Posts
                 </h5>
               </div>
-              <div className="option">
+              <div className="option" onClick={() => setActive("SecondTable")}>
                 <AiOutlineTable className="o-icon" />
-                <h5  className="admin_link"  onClick={() => setActive("SecondTable")}>
+                <h5  className="admin_link"  >
                   Applicants
                 </h5>
               </div>
-              <div className="option">
+              <div className="option" onClick={() => setActive("ThirdTable")}>
                 <AiOutlineContacts className="o-icon" />
-                <h5  className="admin_link" onClick={() => setActive("ThirdTable")}>Contacts</h5>
+                <h5  className="admin_link" >Contacts</h5>
               </div>
             </div>
           </div>

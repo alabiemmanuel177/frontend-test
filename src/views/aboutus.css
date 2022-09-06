@@ -214,7 +214,7 @@
 
 .responsive1 {
   width: 100%;
-  height: 550px;
+  /* height: 550px; */
   border: 10px solid white;
   border-radius: 2px;
 }
